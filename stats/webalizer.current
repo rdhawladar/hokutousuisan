@@ -1,0 +1,584 @@
+# Webalizer V2.23-08 Incremental Data - 10/02/2017 22:37:14
+2017 10 2 22 37 14
+1716 1467 28 124 36 12 83606018 789 42 0
+14 12 651 1 2
+370 281 15340602 14 224 16
+1346 1186 68265416 14 565 26
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0
+0 0 0 0
+56 33 3671174 30
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+1 0 11104 1
+0 0 0 0
+0 0 0 0
+135 111 3651899 79
+155 114 164529 115
+240 157 9294161 145
+16 13 138046 15
+651 629 44117256 133
+56 54 3546749 21
+22 18 830130 10
+40 40 2107178 6
+209 184 11762969 119
+105 97 3741159 87
+3 2 85510 3
+27 15 484154 25
+0 0 0 0
+0
+0
+0
+1467
+0
+0
+0
+0
+0
+2
+0
+2
+71
+0
+156
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+17
+0
+0
+0
+0
+0
+# -urls- 
+/assets/dist/css/skins/_all-skins.min.css
+0 21 0 790191 0 0
+/admin/all-members-list
+0 1 0 33776 0 0
+/cometchat/layouts/embedded/images/remove.svg
+0 6 0 2180 0 0
+/bower_components/Ionicons/css/ionicons.min.css
+0 23 0 1025680 0 0
+/assets/plugins/colorpicker/bootstrap-colorpicker.min.js
+0 2 0 36556 0 0
+/assets/plugins/iCheck/line/_all.css
+0 20 0 390402 0 0
+/user/give-business-idea
+0 5 0 125804 0 3
+/user/world-secret-talk
+0 2 0 46393 0 0
+/cometchat/css.php
+0 3 0 69510 0 0
+/assets/plugins/input-mask/jquery.inputmask.extensions.js
+0 20 0 90355 0 0
+/user/premium/login
+0 4 11255104 93366 0 0
+/cometchat/images/arrowtop.svg
+0 1 11255760 791 0 0
+/admin/news-list
+0 1 11259168 33571 0 0
+/cometchat/layouts/embedded/images/bell.svg
+0 4 0 3366 0 0
+/admin/dashboard
+0 2 0 66526 0 0
+/assets/plugins/daterangepicker/daterangepicker.css
+0 2 0 13332 0 0
+/admin/login
+0 6 0 26244 1 0
+/assets/dist/js/demo.js
+0 20 0 310913 0 0
+/cometchat/cometchatjs.php
+0 11 0 7632422 1 0
+/phpmyadmin/
+0 1 11259520 21456 0 0
+/cometchat/images/arrowbottom.svg
+0 1 11255632 787 0 0
+/user/mobile-application
+0 1 11255888 30540 0 0
+/user/membership-power-feedback-list-json
+0 8 0 88 1 0
+/assets/dist/css/AdminLTE.min.css
+0 21 65 1805228 0 0
+/cometchat/layouts/embedded/images/more.svg
+0 4 11209568 3147 0 0
+/bower_components/font-awesome/css/font-awesome.min.css
+0 23 0 620000 0 0
+/assets/dist/img/profile/20170927202337_IMG_9812.PNG
+1 3 0 260394 0 0
+/cometchat/images/noavatar.png
+1 4 0 7164 0 0
+/assets/dist/css/AdminLTELogin.min.css
+0 9 0 564912 0 0
+/assets/plugins/select2/select2.min.css
+0 20 0 273528 0 0
+/user/blockchain-related-lecture
+0 1 0 30367 0 0
+/assets/plugins/iCheck/minimal/_all.css
+0 20 0 255168 0 0
+/cometchat/layouts/embedded/images/group.svg
+0 5 0 3510 0 0
+/cometchat/images/close.png
+1 3 0 642 0 0
+/assets/dist/slick/slick.css
+0 20 0 31122 0 0
+/assets/plugins/timepicker/bootstrap-timepicker.min.css
+0 2 0 4820 0 0
+/user/question-answer
+0 2 0 50574 0 1
+/bower_components/bootstrap/dist/css/bootstrap2.min.css
+0 10 0 849590 0 0
+/assets//plugins/iCheck/icheck.min.js
+0 20 0 76772 0 0
+/cometchat/layouts/embedded/images/attach.svg
+0 6 0 2952 0 0
+/user/login
+0 25 0 315762 8 2
+/assets/plugins/jQuery/jquery-3.1.1.min.js
+0 8 0 433545 0 0
+/cometchat/layouts/embedded/images/rightarrow.svg
+0 6 0 2372 0 0
+/assets/dist/js/adminlte.min.js
+0 20 0 215577 0 0
+/cometchat/layouts/embedded/images/smileyicon.svg
+0 6 0 4120 0 0
+/assets/plugins/iCheck/icheck.min.js
+0 8 0 22580 0 0
+/admin/events-list-data-table
+0 1 11259040 1432 0 0
+/assets/dist/css/AdminLTEAdmin.min.css
+0 2 0 185234 0 0
+/assets/plugins/datatables/jquery.dataTables.min.js
+0 2 0 159762 0 0
+/assets/dist/img/profile/user4-128x128.jpg
+1 22 0 73017 0 0
+/admin/calendar-event-entry
+0 1 11258336 45024 0 0
+/user/bitcoin-related-lecture
+0 3 0 184623 0 0
+/cometchat/layouts/embedded/images/addhover.svg
+0 1 11255488 481 0 0
+/user/online-members
+0 25 0 607160 0 0
+/favicon.ico
+0 40 0 0 0 0
+/assets/plugins/colorpicker/bootstrap-colorpicker.min.css
+0 2 0 7406 0 0
+/admin/calendar-event-list
+0 1 11258656 33776 0 0
+/assets/plugins/input-mask/jquery.inputmask.js
+0 20 0 1539163 0 0
+/user/majime-terrorist
+0 1 11254864 30257 0 0
+/assets/dist/bg/bgsemifinal.png
+1 1 11254368 0 0 0
+/user/crazy-mindset/2017-08-01
+0 14 0 316106 1 1
+/assets/dist/img/logo/logo450.png
+1 2 0 62018 0 0
+/assets/dist/img/profile/20171002041557_IMG_1076.jpg
+1 21 11254720 2072184 0 0
+/assets/plugins/input-mask/jquery.inputmask.date.extensions.js
+0 20 0 387838 0 0
+/user/crazy-mindset/2017-09-01
+0 5 0 112299 0 1
+/cometchat/layouts/embedded/images/cometchat.png
+1 3 0 30702 0 0
+/assets/bootstrap/js/bootstrap.min.js
+0 23 0 740900 0 0
+/assets/plugins/timepicker/bootstrap-timepicker.min.js
+0 2 0 30906 0 0
+/assets/dist/bg/Forestbg_003.jpg
+1 20 0 18666759 0 0
+/assets/plugins/iCheck/all.css
+0 20 0 28224 0 0
+/assets/plugins/datepicker/datepicker3.css
+0 2 0 67490 0 0
+/user/forget-password
+0 1 11257360 10125 0 0
+/assets/plugins/slimScroll/jquery.slimscroll.min.js
+0 20 0 80308 0 0
+/user/membership-power
+0 8 0 284384 1 0
+/assets/dist/slick/ajax-loader.gif
+1 3 0 4178 0 0
+/bower_components/bootstrap/dist/css/bootstrap.min.css
+0 21 0 2303028 0 0
+/assets/plugins/iCheck/square/_all.css
+0 20 0 280638 0 0
+/assets/dist/bg/Logo23.png
+1 21 0 851618 0 0
+/user/know-realtime-earning
+0 4 0 88416 0 0
+/cometchat/cometchat_getid.php
+0 19 0 5504 1 0
+/cometchat/layouts/embedded/images/circledown.svg
+0 6 0 2876 0 0
+/cometchat/layouts/embedded/images/add.svg
+0 6 0 2272 0 0
+/user/calendar-detail/15
+0 1 11259984 28832 0 0
+/assets/dist/slick/slick-theme.css
+0 20 0 56574 0 0
+/cometchat/layouts/embedded/images/menu.svg
+0 1 11255344 0 0 0
+/user/other-members-profile
+0 33 0 1545039 3 1
+/admin/members-list-data-table
+0 1 0 7503 0 0
+/assets/dist/img/profile/20170927145447_20170803_141033.jpg
+1 11 0 597926 0 0
+/assets/plugins/datatables/dataTables.bootstrap.css
+0 20 0 158922 0 0
+/bower_components/bootstrap/dist/css/bootstrap.min.css.map
+0 1 0 542194 0 0
+/assets/plugins/iCheck/futurico/futurico.css
+0 20 0 25578 0 0
+/assets/dist/slick/slick.js
+0 3 0 84265 0 0
+/assets/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css
+0 2 0 4452 0 0
+/bower_components/moment/moment.js
+0 20 0 2192065 0 0
+/assets/dist/img/tech.jpg
+1 2 0 344486 0 0
+/assets/dist/bg/fgserrsr2.png
+1 7 0 190200 0 0
+/cometchat/cometchat_embedded.php
+0 21 0 43218 1 0
+/user/crazy-mindset/2017-10-01
+0 5 0 112971 1 0
+/assets/dist/bg/login_bg_op.png
+1 8 0 3713063 0 0
+/assets/plugins/datatables/dataTables.bootstrap.min.js
+0 2 0 4130 0 0
+/assets/dist/img/profile/20170926123619_12345.png
+1 11 0 13968860 0 0
+/assets/plugins/datepicker/bootstrap-datepicker.js
+0 2 3905801951654802529 93676 0 0
+/user/home
+0 40 3345452570900194676 941772 5 6
+/assets/plugins/iCheck/square/blue.css
+0 8 3329909646087684352 8055 0 0
+/bower_components/font-awesome/fonts/fontawesome-webfont.woff2
+0 20 7854277750134145024 1388880 0 0
+/user/self-introduce
+0 50 3545512881161514553 3070943 3 3
+/cometchat/js.php
+0 9 7171939 1822215 1 1
+/cometchat/layouts/embedded/images/removewhite.svg
+0 5 25282935896748082 1590 0 0
+/cometchat/cometchatcss.php
+0 16 11205496 1125496 1 1
+/assets/plugins/fastclick/fastclick.js
+0 20 0 441405 0 0
+/assets/plugins/daterangepicker/daterangepicker.js
+0 2 0 129590 0 0
+/assets/plugins/iCheck/polaris/polaris.css
+0 20 0 28026 0 0
+/cometchat/cometchat_receive.php
+0 357 0 139847 2 1
+/admin/news-list-data-table
+0 1 11259280 1074 0 0
+/robots.txt
+0 1 11256816 24 0 0
+/assets/dist/img/user2-160x160.jpg
+1 2 0 14140 0 0
+/assets/dist/css/skins/_all-skins-admin.min.css
+0 2 0 83480 0 0
+/cometchat/images/download.png
+1 4 965192478647586233 11808 0 0
+/assets/dist/img/profile/20171001174818_IMG_9910.JPG
+1 23 209702113288061756 1537352 0 0
+/cometchat/layouts/embedded/images/vline.svg
+0 6 0 1040 0 0
+/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2
+0 6 0 54084 0 0
+/user/ithopia-request-form
+0 8 7434940749251098925 200431 1 0
+/assets/plugins/select2/select2.full.min.js
+0 20 8029750108699766072 1275085 0 0
+/assets/plugins/iCheck/flat/_all.css
+0 20 3257850949388496754 247914 0 0
+# End Of Table - urls
+# -sites- (monthly)
+184.22.231.234
+0 85 32 3655622 2 1506865801
+/user/other-members-profile
+204.79.180.23
+0 1 1 121370 0 0
+-
+204.79.180.10
+0 1 1 121370 0 0
+-
+204.79.180.18
+0 1 0 444 1 1506877638
+-
+184.22.225.2
+0 91 67 6260616 6 1506983834
+/user/bitcoin-related-lecture
+softbank126131038208.bbtec.net
+0 196 179 9947853 7 1506896434
+/user/home
+204.79.180.20
+0 2 2 117709 0 0
+-
+69.58.178.56
+0 4 3 23293 1 1506955583
+/user/forget-password
+182.232.147.50
+0 60 57 130833 2 1506952877
+/cometchat/cometchat_receive.php
+node-ogg.pool-125-25.dynamic.totbb.net
+0 32 32 18445 1 1506957865
+/cometchat/cometchat_receive.php
+google-proxy-66-249-82-214.google.com
+0 1 1 2058 1 1506957432
+/cometchat/cometchat_embedded.php
+184.22.224.128
+0 15 7 162696 2 1506896535
+/user/login
+204.79.180.15
+0 1 1 51284 0 0
+-
+103.5.140.174
+0 155 142 1574569 1 1506950215
+/user/bitcoin-related-lecture
+204.79.180.13
+0 1 1 4516 0 0
+-
+google-proxy-64-233-173-48.google.com
+0 33 20 1444777 2 1506952576
+/cometchat/cometchat_embedded.php
+204.79.180.11
+0 1 1 12624 1 1506877639
+/user/login
+185.129.148.167
+0 1 0 11104 1 1506931824
+-
+42-145-46-241.rev.home.ne.jp
+0 56 33 3671174 1 1506912919
+/user/online-members
+114.134.91.94
+0 708 693 48806810 4 1506972539
+/user/home
+75-149-221-170-illinois.hfc.comcastbusiness.net
+0 2 1 13068 1 1506875718
+/user/login
+204.79.180.1
+0 2 2 95763 0 0
+-
+google-proxy-64-233-173-46.google.com
+0 23 10 163018 2 1506952558
+/cometchat/cometchat_embedded.php
+pw126255000130.9.panda-world.ne.jp
+0 135 111 3651899 1 1506943477
+/cometchat/cometchat_receive.php
+184.22.224.135
+0 61 54 999238 2 1506888673
+/user/home
+204.79.180.8
+0 1 1 37045 0 0
+-
+google-proxy-64-233-173-50.google.com
+0 45 16 2493676 2 1506952567
+/cometchat/cometchatjs.php
+165.227.98.138
+0 2 1 13144 1 1506955260
+/user/login
+# End Of Table - sites (monthly)
+# -sites- (daily)
+184.22.225.2
+0 91 67 6260616 6 1506983834
+/user/bitcoin-related-lecture
+69.58.178.56
+0 4 3 23293 1 1506955583
+/user/forget-password
+182.232.147.50
+0 60 57 130833 2 1506952877
+/cometchat/cometchat_receive.php
+node-ogg.pool-125-25.dynamic.totbb.net
+0 32 32 18445 1 1506957865
+/cometchat/cometchat_receive.php
+google-proxy-66-249-82-214.google.com
+0 1 1 2058 1 1506957432
+/cometchat/cometchat_embedded.php
+103.5.140.174
+0 155 142 1574569 1 1506950215
+/user/bitcoin-related-lecture
+google-proxy-64-233-173-48.google.com
+0 33 20 1444777 2 1506952576
+/cometchat/cometchat_embedded.php
+185.129.148.167
+0 1 0 11104 1 1506931824
+-
+42-145-46-241.rev.home.ne.jp
+0 56 33 3671174 1 1506912919
+/user/online-members
+114.134.91.94
+0 708 693 48806810 4 1506972539
+/user/home
+google-proxy-64-233-173-46.google.com
+0 23 10 163018 2 1506952558
+/cometchat/cometchat_embedded.php
+pw126255000130.9.panda-world.ne.jp
+0 135 111 3651899 1 1506943477
+/cometchat/cometchat_receive.php
+google-proxy-64-233-173-50.google.com
+0 45 16 2493676 2 1506952567
+/cometchat/cometchatjs.php
+165.227.98.138
+0 2 1 13144 1 1506955260
+/user/login
+# End Of Table - sites (daily)
+# -referrers- 
+http://xn--u9j926gj4ecxa32lwx8cf56a.com/user/bitcoin-related-lecture
+0 8
+http://xn--u9j926gj4ecxa32lwx8cf56a.com/bower_components/bootstrap/dist/css/bootstrap.min.css
+0 1
+http://xn--u9j926gj4ecxa32lwx8cf56a.com/user/world-secret-talk
+0 2
+http://xn--u9j926gj4ecxa32lwx8cf56a.com/assets/plugins/iCheck/all.css
+0 36
+http://xn--u9j926gj4ecxa32lwx8cf56a.com/user/know-realtime-earning
+0 4
+http://xn--u9j926gj4ecxa32lwx8cf56a.com/admin/calendar-event-entry
+0 1
+http://xn--u9j926gj4ecxa32lwx8cf56a.com/user/self-introduce
+0 235
+android-app://com.Slack
+0 1
+http://xn--u9j926gj4ecxa32lwx8cf56a.com/user/mobile-application
+0 2
+http://xn--u9j926gj4ecxa32lwx8cf56a.com/user/question-answer
+0 2
+http://xn--u9j926gj4ecxa32lwx8cf56a.com/user/crazy-mindset/2017-08-01
+0 77
+http://xn--u9j926gj4ecxa32lwx8cf56a.com/admin/news-list
+0 1
+http://xn--u9j926gj4ecxa32lwx8cf56a.com/user/login
+0 139
+- (Direct Request)
+0 34
+http://xn--u9j926gj4ecxa32lwx8cf56a.com/user/majime-terrorist
+0 4
+http://xn--u9j926gj4ecxa32lwx8cf56a.com/user/blockchain-related-lecture
+0 2
+http://xn--u9j926gj4ecxa32lwx8cf56a.com/user/home
+0 190
+http://xn--u9j926gj4ecxa32lwx8cf56a.com/user/calendar-detail/15
+0 2
+http://xn--u9j926gj4ecxa32lwx8cf56a.com/bower_components/bootstrap/dist/css/bootstrap2.min.css
+0 5
+http://xn--u9j926gj4ecxa32lwx8cf56a.com/user/ithopia-request-form
+0 29
+http://xn--u9j926gj4ecxa32lwx8cf56a.com/admin/all-members-list
+0 3
+http://www.xn--u9j926gj4ecxa32lwx8cf56a.com/
+0 1
+http://xn--u9j926gj4ecxa32lwx8cf56a.com/admin/calendar-event-list
+0 4
+http://xn--u9j926gj4ecxa32lwx8cf56a.com/admin/dashboard
+0 24
+http://xn--u9j926gj4ecxa32lwx8cf56a.com/user/give-business-idea
+0 15
+http://xn--u9j926gj4ecxa32lwx8cf56a.com/admin/login
+0 20
+http://xn--u9j926gj4ecxa32lwx8cf56a.com/user/online-members
+0 150
+http://xn--u9j926gj4ecxa32lwx8cf56a.com/user/premium/login
+0 8
+http://xn--u9j926gj4ecxa32lwx8cf56a.com/bower_components/font-awesome/css/font-awesome.min.css
+0 20
+http://xn--u9j926gj4ecxa32lwx8cf56a.com/user/crazy-mindset/2017-09-01
+0 11
+http://xn--u9j926gj4ecxa32lwx8cf56a.com/assets/dist/slick/slick-theme.css
+0 3
+http://xn--u9j926gj4ecxa32lwx8cf56a.com/user/membership-power
+0 27
+http://xn--u9j926gj4ecxa32lwx8cf56a.com/cometchat/cometchat_embedded.php
+0 454
+http://xn--u9j926gj4ecxa32lwx8cf56a.com/user/crazy-mindset/2017-10-01
+0 5
+http://xn--u9j926gj4ecxa32lwx8cf56a.com/cometchat/cometchatcss.php
+0 24
+http://xn--u9j926gj4ecxa32lwx8cf56a.com/user/other-members-profile
+0 172
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Mobile Saf
+0 77
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+0 26
+Mozilla/5.0 (Linux; Android 6.0.1; SM-N920C Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile S
+0 194
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+0 616
+Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0;  Trident/5.0)
+0 11
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+0 252
+Mozilla/5.0 (compatible; ips-agent)
+0 4
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:56.0) Gecko/20100101 Firefox/56.0
+0 241
+Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0
+0 1
+hint
+0 2
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+0 290
+Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1.9) Gecko/20100508 SeaMonkey/2.0.4
+0 2
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

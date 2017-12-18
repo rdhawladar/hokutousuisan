@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+body.login{
+    background: url(http://www.kojohama.com/img/kasou_bg.jpg) repeat-x #000;
+}
+.login .my_login_ph {
+    background: url("http://www.kojohama.com/img/my_login_ph.png") no-repeat scroll 0 0 transparent;
+    height: 90px;
+    text-indent:-7777em;
+    }
+.setsumei{color:#fff;text-align:center;padding:10px 0;}
+.login #backtoblog a {color:#fff!important;}
+#loginform{
+    background: url("http://www.kojohama.com/img/chart_bg_01.jpg") repeat scroll 0 0 transparent;
+    }
+#loginform label{color:#000;}
+.login form{border:none;box-shadow:none;}
+
+.submit{text-align:center;}
+.button, .submit input, .button-secondary {
+    background:none;
+    border:none;}
+
+/*paging
+-----------------------------------------------*/
+.arrow {
+clear:both;
+list-style-type:none;
+padding:10px 0 10px 0;
+font-size:14px;
+font-family: Arial, sans-serif;}
+.arrow.on {
+border-top:1px dotted #fff;}
+.arrow li{ width:130px;}
+.arrow .prev{ float:left;}
+.arrow .next{ float:right; text-align:right;}
+.arrow p{
+clear:both;
+text-align:center;
+padding:40px 0 0 0;}
+.arrow a,
+.to_archive a{ color:#fff;}
+.arrow a:active{ color:#fff;}
+.arrow a:visited{ color:#fff;}
+.arrow a:hover{ color:#fff;}
+.to_archive{text-align:center;clear:both;font-size:85%;}

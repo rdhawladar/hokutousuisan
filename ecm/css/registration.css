@@ -1,0 +1,326 @@
+@charset "euc-jp";
+
+
+
+/* -----------------------------------------------------------------
+   共通
+----------------------------------------------------------------- */
+
+a:link{
+    color:#1B4F98;/* リンク文字色 */
+}
+a:visited{
+    color:#1B4F98; 
+}
+a:active{
+    color:#1B4F98; 
+}
+a:hover{
+    color: #1B4F98;/* リンク文字色（hover時） */
+} 
+
+
+
+p{
+    text-align: left;
+}
+
+label{
+    cursor:pointer; 
+}
+
+input,textarea,select{
+    font-family:"Lucida Sans Unicode", "Lucida Grande", Arial, Helvetica, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", sans-serif;   
+}
+
+
+
+
+.formtable input{width: 90%;}
+.reg{
+    width: 287px;
+}
+.btn,.btn:link,.btn:visited,.btn:active,.btn:hover{
+    background: #333;
+    color: #524c4c;
+    text-decoration:  none;
+    border-radius: 5px; 
+    display: inline-block;
+    margin: 0 auto;
+    vertical-align: middle;
+    padding: 6px 12px;
+}
+
+.btn:hover{
+    opacity: 0.8;   
+}
+
+.wrap{
+    margin:20px auto;
+    padding: 20px;
+
+}
+
+.main{
+    padding: 0 24px;
+}
+
+.section{
+    margin-bottom: 64px;
+    position: relative;
+    overflow: hidden;
+}
+
+.shopBtnWrap{
+    position: absolute;
+    right: 0;
+    top: 24px;
+}
+.loginBtnWrap{
+    position: absolute;
+    right: 24%;
+    top: 24px;
+}
+
+.shop-btn,.shop-btn:link,.shop-btn:visited,.shop-btn:active,.shop-btn:hover{
+    background: #ddd;
+    color: #777;
+    font-size: 14px;
+}
+
+.headImg{
+    width: 100%;
+    margin-top: 72px;
+}
+
+.headImg img{
+    max-width: 100%;
+}
+
+.pageTitle{
+    text-align: left;
+    font-size:15px;    /* タイトルのフォントサイズ */
+    color:#ddd;        /* タイトルの文字色 */
+    margin: 48px auto;  
+}
+
+
+
+@media screen and (max-width: 768px){
+    .formTable th{  width: 20% !important; min-width: 94px !important; }
+    .formTable td, .formTable th { font-size: 10px !important; padding: 10px 6px !important;}
+    .required, .notes{padding: 1px 3px !important; font-size: 8px !important;}
+}
+@media screen and (max-width: 300px){
+    .formTable th{  width: 20% !important; min-width: 50px !important; }
+    .formTable td, .formTable th { padding: 10px 2px !important;}
+}
+/* -----------------------------------------------------------------
+   会員情報登録
+----------------------------------------------------------------- */
+
+#responsiveType{
+    display: none;
+}
+
+.formTable{
+    width: 100%;
+    margin: 16px auto 0;    
+}
+
+.formTable th, .formTable td {
+    border: 1px solid rgb(64, 62, 62);
+    padding: 12px 20px;
+    text-align: left;
+    word-break: break-all;
+}
+
+.formTable th{
+    background: #222;
+    font-size: 13px;
+    color: #fff;
+    width: 35%;
+    min-width: 135px;
+}
+
+.formTable td{
+    background: #333;
+    font-size: 13px;
+    color: #f8f8f8;
+}
+
+.required{
+    display: inline-block;
+    background:#cc0000;   /* 必須項目背景色 */
+    font-weight: normal;
+    color: #fff;     /* 必須項目文字色 */
+    padding: 3px 5px;
+    font-size: 11px;
+    float: right;
+}
+
+.notes{
+    font-size: 13px;
+    color: #777;      /* 入力例文字色 */
+    display: block;
+    margin-top: 8px;    
+}
+
+.labelBtn{
+    width: 25%;
+    display: inline-block;
+}
+
+.labelBtn input[type="radio"]{
+    margin-right: 4px;
+}
+
+input[type="text"],input[type="number"],input[type="password"],input[type="tel"], input[type="email"], select,textarea{
+    padding: 6px;   
+    border: 1px solid #161619;
+    border-radius: 4px;
+    font-size: inherit;
+    color: #fff;
+}
+
+input[type="text"],input[type="number"],input[type="password"],input[type="tel"],input[type="email"],textarea{
+    background: #555; 
+    width: 100%;
+}
+
+input[type="text"]:focus,input[type="number"]:focus,input[type="password"]:focus,input[type="tel"]:focus,input[type="email"]:focus,select:focus,textarea:focus{
+    background-color: #333; 
+}
+
+input[name$="id"]{
+    width: 10em;
+}
+
+input.inputS{
+    width: 5em; 
+    margin-right: 4px;
+}
+
+input[type="text"][name^="email"],
+input[type="text"][name*="address"]{
+    width: 65%; 
+}
+
+select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    cursor: pointer;
+    background: #555 url("https://www.makeshop.jp/images/down-arrow.png") no-repeat right 12px top 48%;
+    background-size: 11px 7px;
+    padding-right: 30px;
+    border: 1px solid #222;
+    color: #777;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+select option{
+    background: #fff;
+}
+
+/* -----------------------------------------------------------------
+   ポリシー
+----------------------------------------------------------------- */
+
+.policyTitle {
+    font-size: 16px;
+    margin-bottom: 16px;
+    text-align: left;
+}
+
+.privacyPolicyWrap + .policyTitle{
+    margin-top: 24px;
+}
+
+iframe.privacyPolicy{
+    width: 100%;
+    border: 1px solid #ccc;
+    margin-bottom: 8px;
+    height: 140px;
+    overflow: auto;
+    background: #333;
+}
+
+.agreeCheck{
+    margin-right: 6px;
+    vertical-align: middle;
+}
+
+.btnWrap {
+    margin-top: 64px;
+}
+
+.btn.disabled{
+    background: #ddd;
+    pointer-events: none;
+}
+
+.check-btn{
+    font-size: 14px;
+}
+
+#send_btn{
+    font-size: 17px;
+    padding: 12px 32px;
+}
+
+/* -----------------------------------------------------------------
+   フッター
+----------------------------------------------------------------- */
+.footer{
+    margin-top:120px;
+    width: 100%;
+    border-top: 1px dashed #ccc;    
+    padding: 32px 0;
+}
+
+.copyright{
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 32px;
+}
+
+.seal{
+    margin:0 auto;  
+    text-align: center;
+}
+
+.sealimg{
+    display: inline-block;  
+    width: 115px;
+}
+
+.sealimg img{
+    max-width: 100%;    
+}
+
+.sealtxt{
+    display: inline-block;
+    vertical-align: top;
+    width: 50%; 
+    text-align:left;
+    font-size:11px;
+    padding-left:10px;
+    color:#666;
+}
+
+table {
+  border-collapse: collapse;
+  border-radius: 1em;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 1em;
+  background: #ddd;
+  border-bottom: 2px solid white; 
+}

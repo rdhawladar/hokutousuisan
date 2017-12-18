@@ -1,0 +1,18 @@
+  table{font-size: 12px; margin: 0 auto; width: 800px;}
+
+  .middle{margin: 0 auto; width: 960px; margin-top: 100px; }
+  .middle p{ padding: 15px; text-align: justify; word-wrap: break-word; font-size: 14px;}
+  .title{
+    font-size: 18px;
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#666), to(#111));
+    padding-left: 10px;
+    border-top: 2px solid red;
+    margin-bottom: 20px;
+    line-height: 45px;
+  }
+  .sub-title{font-size: 18px;}
+  .list-number{ list-style: none; list-style-type: decimal; margin-left: 2em; }
+  .list-number li{ padding-left: .5em; list-style-type: decimal;}
+  .table{border: 1px solid #fff;}
+  .table td{ border: 1px solid #fff; padding: 15px; }
+  .column-1{width: 20%;}

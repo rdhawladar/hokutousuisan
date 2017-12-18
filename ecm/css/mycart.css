@@ -1,0 +1,159 @@
+/*cart table CSS */
+.cart-pro-img{ width: 8%;}
+.cart-pro-img img{ width: 100%; }
+.select{width: 90%; height: 25px;}
+.margin-bottom{margin-bottom:100px;}
+.error{background: #751c1c;}
+.success{background: #4e9a4e;}
+.order-alert{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 6px;
+    border-radius: 4px;
+    padding: 5px 7px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.order-alert h4{margin:0px; }
+
+.confirm-mess {border: 1px solid #fff; background: #777; padding: 20px; }
+.confirm-mess p{ text-align: center; padding: 2px; }
+.summary{border: 1px solid #555; background: #333; width: 100%; margin-bottom: 20px; }
+.summary tr{border: none;}
+.summary tr td{ padding: 10px;text-align: right; }
+.method span, .method input{margin-right: 20px; }
+.method p{ margin: 0px; margin-left: 40px;}
+.method{ background: #333; padding: 10px; float: display: block; border: 1px solid #555; margin: 5px; text-align: left; }
+.m-detail{background: #777; color: orange; padding: 20px; border-radius: 5px; font-size: 10px;}
+.m-detail p{margin: 0px;}
+.date-confirm th{ width: 35%; }
+.date-confirm li{list-style-type: decimal;}
+.guest-order th{vertical-align: middle;}
+.name input{width: 70%;}
+.section .notes, .method .notes{font-size: 11px; margin-top: 0px;}
+
+
+.btn-cart,.btn-cart:link,.btn-cart:visited,.btn-cart:active,.btn-cart:hover{
+    background: #333;
+    text-decoration:  none;
+    border-radius: 5px; 
+    display: inline-block;
+    margin: 0 auto;
+    vertical-align: middle;
+    padding: 10px 20px;
+    color: #999;
+    border: 1px solid #555;
+}
+
+@media screen and (max-width: 768px){
+  .btn-cart, .btn-cart:link, .btn-cart:visited, .btn-cart:active, .btn-cart:hover{
+    width: 47%;
+    font-size: 10px;
+    text-align: center;
+  }
+} 
+
+.btn-cart:hover{
+    opacity: 0.8;   
+}
+
+
+
+.tb-page{
+    width: 90%;
+    margin: 0 auto;
+/*    margin-top: 10%;*/
+    min-height: 460px;
+}
+
+legend{
+      text-align: center;
+    font-size: 28px;
+    background: #666;
+    padding: 16px;
+    border-radius: 4px;
+    width: 668px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+
+.total{margin-top: 20px ; margin-bottom: 20px; font-size: 14px; font-weight: bold; font-weight: bold;}
+.total tr{ background: #777; padding: 3px; border: 1px solid #fff; text-align: center;}
+
+tbody{
+  text-align: center; 
+}
+tbody tr{ background: #333; border: 1px solid #555;  }
+
+thead{ padding: 3px;   background: #777; }
+thead{
+  border: 1px solid #fff;
+}
+
+
+
+
+thead tr, .total td{
+  padding: 3px;
+}
+
+.cont{float: left;}
+.conf{float: right;}
+
+.update{
+  background: #555;
+  color: #fff;
+  border-radius: 2px;
+  border: transparent;
+}
+
+.update:Hover{color:#E0B338;}
+
+.one th{
+  padding: 3px;
+  text-align: center;
+  border: 1px solid #555;
+}
+
+.two td{
+  padding: 10px;
+  font-size: 12px;
+  vertical-align: middle;
+  border: 1px solid #555;
+}
+
+
+.next
+{
+      background: #9A9;
+    padding: 6px 13px;
+    border-radius: 12px;
+    text-decoration: none !important;
+}
+a:hover{
+  text-decoration: none;
+}
+
+div.text div.label { 
+  margin: 0; 
+  padding: 0; 
+  margin-left: 20px; 
+  font-size: 100%; 
+} 
+
+div.text input, 
+div.text textarea { 
+  margin: 0; 
+  padding: 0; 
+  margin-left: 20px; 
+  margin-bottom: 1.25em; 
+} 
+
+
+
+
+
+
+
+

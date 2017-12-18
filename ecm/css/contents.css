@@ -1,0 +1,662 @@
+@charset "utf-8";
+
+
+/*------------------------------------------
+下層ページ 各タイトル画像
+------------------------------------------*/
+
+.cart{
+    width: 120px;
+    height: 30px;
+    border: transparent;
+    background-color: transparent;
+    background-repeat: no-repeat;
+}
+.cat-description{height: 105px;}
+@media screen and (max-width: 768px){
+	.cat-price{margin-top: 12px;}
+	.cat-description{height: 130px;}
+	.cat-card-body { height: 250px !important; }
+}
+
+h2.concept_page_tit {
+	width: 920px;
+	margin: 20px auto 30px auto;
+	background: url();
+	height: 160px;
+	display: block;
+	font-size: 1px;
+	text-indent: -9999px;
+}
+h2.about_page_tit {
+	width: 920px;
+	margin: 20px auto 30px auto;
+	height: 160px;
+	display: block;
+	font-size: 1px;
+	text-indent: -9999px;
+}
+
+h2.product_page_tit {
+	width: 920px;
+	margin: 20px auto 30px auto;
+	background: url(http://www.hokutousuisan.com/img/product_tit.jpg);
+	height: 160px;
+	display: block;
+	font-size: 1px;
+	text-indent: -9999px;
+}
+h2.history_page_tit {
+	width: 920px;
+	margin: 20px auto 30px auto;
+	background: url(http://www.hokutousuisan.com/img/history_tit.jpg);
+	height: 160px;
+	display: block;
+	font-size: 1px;
+	text-indent: -9999px;
+}
+h2.recruit_page_tit {
+	width: 920px;
+	margin: 20px auto 30px auto;
+	background: url(http://www.hokutousuisan.com/img/recruit_tit.jpg);
+	height: 160px;
+	display: block;
+	font-size: 1px;
+	text-indent: -9999px;
+}
+h2.contact_page_tit {
+	width: 920px;
+	margin: 20px auto 30px auto;
+	background: url(http://www.hokutousuisan.com/img/contact_tit.jpg);
+	height: 160px;
+	display: block;
+	font-size: 1px;
+	text-indent: -9999px;
+}
+h2.blog_page_tit {
+	width: 920px;
+	margin: 20px auto 30px auto;
+	background: url(http://www.hokutousuisan.com/img/blog_tit.jpg);
+	height: 160px;
+	display: block;
+	font-size: 1px;
+	text-indent: -9999px;
+}
+
+h2.chart_page_tit {
+	width: 920px;
+	margin: 20px auto 30px auto;
+	background: url(http://www.hokutousuisan.com/img/chart_title_01.jpg);
+	height: 160px;
+	display: block;
+	font-size: 1px;
+	text-indent: -9999px;
+}
+
+
+/*------------------------------------------
+下層ヘッダ
+------------------------------------------*/
+#kasou_header {
+	width: 100%;
+	margin: 0 auto;
+	height: 85px;
+	position: relative;
+	text-align: left;
+}
+h1.k_h_logo a {
+	/*background: url(http://www.hokutousuisan.com/img/kasou_logo.png);*/
+	width: 114px;
+    height: 82px;
+    font-size: 1px;
+    text-indent: -9999px;
+    position: absolute;
+    top: 4px;
+    left: 17px;
+    display: block;
+}
+/*------------------------------------------
+下層用ナビ
+------------------------------------------*/
+nav#kasou_nav {
+	width: 100%;
+    /*background: url(http://www.hokutousuisan.com/img/line_02.png) no-repeat top #000;*/
+    border-top: 1px solid #fff;
+    opacity: .8;
+    padding-top: 20px;
+    position: absolute;
+    top: 85px;
+}
+
+nav#kasou_nav dl{
+	list-style-type:none;
+    padding: 0px;
+	margin: 0px auto;
+	width: 920px;
+	margin: 0 auto;
+	display: block;
+	height: 30px;
+}
+nav#kasou_nav dl dd {
+	float:left;
+	font-size: 1px;
+	text-indent: -9999px;
+	}
+nav#kasou_nav dl dd a{
+	display:block;
+	height: 30px;
+	background: url(http://www.hokutousuisan.com/img/kasou_nav.png);
+}
+
+nav#kasou_nav dl dd#navi01 a{ background-position: -5px 30px; width: 155px;}
+nav#kasou_nav dl dd#navi02 a{ background-position: -160px 30px; width: 133px;}
+nav#kasou_nav dl dd#navi03 a{ background-position: -293px 30px; width: 145px;}
+nav#kasou_nav dl dd#navi04 a{ background-position: -437px 30px; width: 125px;}
+nav#kasou_nav dl dd#navi05 a{ background-position: -562px 30px; width: 150px;}
+nav#kasou_nav dl dd#navi06 a{ background-position: -710px 30px; width: 125px;}
+nav#kasou_nav dl dd#navi07 a{ background-position: -835px 30px; width: 80px;}
+
+nav#kasou_nav dl dd#navi01on a{ background-position: -5px 0px; width: 155px;}
+nav#kasou_nav dl dd#navi02on a{ background-position: -160px 0px; width: 133px;}
+nav#kasou_nav dl dd#navi03on a{ background-position: -293px 0px; width: 145px;}
+nav#kasou_nav dl dd#navi04on a{ background-position: -437px 0px; width: 125px;}
+nav#kasou_nav dl dd#navi05on a{ background-position: -562px 0px; width: 150px;}
+nav#kasou_nav dl dd#navi06on a{ background-position: -710px 0px; width: 125px;}
+nav#kasou_nav dl dd#navi07on a{ background-position: -835px 0px; width: 80px;}
+
+nav#kasou_nav dl dd#navi01 a:hover{ background-position: -5px 0px; width: 155px;}
+nav#kasou_nav dl dd#navi02 a:hover{ background-position: -160px 0px; width: 133px;}
+nav#kasou_nav dl dd#navi03 a:hover{ background-position: -293px 0px; width: 145px;}
+nav#kasou_nav dl dd#navi04 a:hover{ background-position: -437px 0px; width: 125px;}
+nav#kasou_nav dl dd#navi05 a:hover{ background-position: -562px 0px; width: 150px;}
+nav#kasou_nav dl dd#navi06 a:hover{ background-position: -710px 0px; width: 125px;}
+nav#kasou_nav dl dd#navi07 a:hover{ background-position: -835px 0px; width: 80px;}
+
+/*---------------------------------------------
+下層フッタ
+---------------------------------------------*/
+#footer_wp {
+	background: url(http://www.hokutousuisan.com/img/kasou_bg2.jpg);
+	width: 960px;
+	height: 130px;
+	margin: 0 auto;
+}
+footer#kasou_footer {
+	width: 960px;
+    height: 130px;
+    position: relative;
+    margin: 0 auto;
+    text-align: left;
+}
+h2.kasou_f_logo a {
+	/*background: url(http://www.hokutousuisan.com/img/kasou_logo2.png);*/
+	width: 276px;
+	height: 68px;
+	font-size: 1px;
+	text-indent: -9999px;
+	display: block;
+	position: absolute;
+	top: 15px;
+	left: 0px;
+}
+.kasou_f_ad {
+	position: absolute;
+	top: 82px;
+	font-size: 12px;
+	line-height: 20px;
+	 width: 200px;
+    overflow: hidden;
+    display: inline-block;
+    word-wrap: break-word;
+}
+h3.kasou_f_btn a {
+	background: url(http://www.hokutousuisan.com/img/top_img_04.png);
+	width: 80px;
+	height: 20px;
+	display: block;
+	font-size: 1px;
+	text-indent: -9999px;
+	position: absolute;
+	bottom: 8px;
+	background-image: url(http://www.hokutousuisan.com/img/top_img_04.png);
+}
+.kasou_bnr_01 a {
+	/*ackground: url(http://www.hokutousuisan.com/img/kasou_footer_bnr_01.jpg) no-repeat;*/
+	width: 285px;
+	height: 75px;
+	display: block;
+	font-size: 1px;
+	text-indent: -9999px;
+	position: absolute;
+	left: 340px;
+	top: 42px;
+}
+.kasou_bnr_02 a {
+	/*background: url(http://www.hokutousuisan.com/img/kasou_footer_bnr_02.jpg);*/
+	width: 147px;
+	height: 40px;
+	display: block;
+	font-size: 1px;
+	text-indent: -9999px;
+	position: absolute;
+	top: 42px;
+	right: 177px;
+}
+.kasou_bnr_03 {
+	/*background: url(http://www.hokutousuisan.com/img/kasou_footer_bnr_03.jpg);*/
+	width: 147px;
+	height: 40px;
+	display: block;
+	font-size: 1px;
+	text-indent: -9999px;
+	position: absolute;
+	top: 42px;
+	right: 20px;
+}
+.kasou_bnr_04 a {
+	background: url(http://www.hokutousuisan.com/img/top_img_08.png);
+	width: 90px;
+	height: 22px;
+	display: block;
+	font-size: 1px;
+	text-indent: -9999px;
+	position: absolute;
+	top: 95px;
+	right: 234px;
+}
+.kasou_bnr_05 a {
+	background: url(http://www.hokutousuisan.com/img/top_img_09.png);
+	width: 110px;
+	height: 22px;
+	display: block;
+	font-size: 1px;
+	text-indent: -9999px;
+	position: absolute;
+	top: 95px;
+	right: 117px;
+}
+.kasou_bnr_06 a {
+	background: url(http://www.hokutousuisan.com/img/top_img_10.png);
+	width: 90px;
+	height: 22px;
+	display: block;
+	font-size: 1px;
+	text-indent: -9999px;
+	position: absolute;
+	top: 95px;
+	right: 20px;
+}
+/*----------------------------------------
+下層共通項目
+----------------------------------------*/
+#k_cnt_wp {
+	width: 920px;
+	margin: 0 auto;
+	text-align: left;
+	min-height: 300px;
+	margin-top: 100px;
+}
+
+/*----------------------------------------
+コンセプト
+----------------------------------------*/
+.concept_01 {
+	width: 355px;
+	float: left;
+}
+.concept_02 {
+	width: 545px;
+	float: right;
+}
+h3.concept_03 {
+	width: 545px;
+	height: 40px;
+	background: url(http://www.hokutousuisan.com/img/line_02.png) no-repeat bottom;
+	font-size: 20px;
+	font-family: "ヒラギノ明朝 Pro W3","Hiragino Mincho ProN","HGS明朝E","ＭＳ Ｐ明朝",serif;
+	display: block;
+}
+
+/*-----------------------------------------
+会社概要
+-----------------------------------------*/
+h3.about_tit01 {
+	background: url(http://www.hokutousuisan.com/img/line_02.png) repeat-x bottom;
+	height: 35px;
+	line-height: 20px;
+	font-size: 20px;
+	font-family: "ヒラギノ明朝 Pro W3","Hiragino Mincho ProN","HGS明朝E","ＭＳ Ｐ明朝",serif;
+}
+
+h3.catagory_tit {
+	height: 35px;
+	text-align: center;
+	line-height: 20px;
+	font-size: 20px;
+	font-family: "ヒラギノ明朝 Pro W3","Hiragino Mincho ProN","HGS明朝E","ＭＳ Ｐ明朝",serif;
+}
+
+
+h3.catagory_sub_tit {
+	height: 35px;
+	line-height: 20px;
+	font-size: 20px;
+	font-family: "ヒラギノ明朝 Pro W3","Hiragino Mincho ProN","HGS明朝E","ＭＳ Ｐ明朝",serif;
+	color: #E0B338;
+}
+
+h3.catagory_sub_tit:hover{color: #fff;}
+.about_01 {
+	background: url(http://www.hokutousuisan.com/img/about_img_01.jpg) no-repeat top right;
+	padding-top: 20px;
+	padding-right: 380px;
+	width: 540px;
+}
+table.about_02 {
+	width: 920px;
+	margin-top: 20px;
+}
+table.about_02 th {
+	width: 150px;
+	background: #2F4525;
+	padding: 10px 0px 10px 20px;
+	text-align: left;
+	vertical-align: middle;
+	font-weight: normal;
+	border: 1px #E0E0E0 solid;
+}
+table.about_02 td {
+	padding: 10px 0px 10px 20px;
+	text-align: left;
+	border: 1px #E0E0E0 solid;
+}
+table.about_03 {
+	width: 530px;
+	margin-top: 40px;
+	float: left;
+}
+table.about_03 th {
+	width: 60px;
+	 color: #E0B338;
+	 padding-bottom: 5px;
+	 text-align: left;
+	 font-weight: normal;
+}
+table.about_03 td {
+	 padding-bottom: 5px;
+	 text-align: left;
+}
+
+/*----------------------------------------
+商品紹介
+----------------------------------------*/
+#product_01 {
+	background: url(http://www.hokutousuisan.com/product_img_01.jpg);
+	width: 920px;
+	height: 200px;
+	display: block;
+	position: relative;
+}
+#product_01 p {
+	display: block;
+	width: 430px;
+	color: #1A1A1A;
+	position: absolute;
+	left: 16px;
+	top: 130px;
+	line-height: 20px;
+}
+#product_02 {
+	background: url(http://www.hokutousuisan.com/img/product_img_02.jpg);
+	width: 920px;
+	height: 200px;
+	display: block;
+	position: relative;
+	margin-top: 40px;
+}
+#product_02 p {
+	display: block;
+	width: 430px;
+	color: #1A1A1A;
+	position: absolute;
+	left: 16px;
+	top: 150px;
+	line-height: 20px;
+}
+#product_03 {
+	background: url(http://www.hokutousuisan.com/mg/product_img_03.jpg);
+	width: 920px;
+	height: 200px;
+	display: block;
+	position: relative;
+	margin-top: 40px;
+}
+#product_03 p {
+	display: block;
+	width: 430px;
+	color: #1A1A1A;
+	position: absolute;
+	left: 16px;
+	top: 150px;
+	line-height: 20px;
+}
+.item_list_wp img {
+	float: left;
+	width: 163px;
+	border: 1px #fff solid;
+	margin-bottom: 25px;
+}
+
+
+/*------------------------------------------
+受賞暦
+-----------------------------------------*/
+.history_01 {
+	background: url(http://www.hokutousuisan.com/history_img_01.png);
+	width: 252px;
+	height: 46px;
+	display: block;
+	font-size: 1px;
+	text-indent: -9999px;
+}
+.history_02 {
+	width: 610px;
+	float: right;
+	margin-right: 25px;
+	/*background: url(../img/history_img_02.jpg) top right no-repeat;*/
+	margin-bottom: 50px;
+}
+table.history_03 {
+	width: 610px;
+	margin-top: 30px;
+}
+table.history_03 td {
+	border: 1px #CCC solid;
+	padding: 10px 0 10px 15px;
+	line-height: 15px;
+}
+.history_list {
+	float: left;
+	width: 163px;
+	height: 120px;
+	overflow: hidden;
+	border: 1px #444 solid;
+	margin-bottom: 25px;
+}
+.history_list img {
+	width: 163px;
+}
+.recruit_01 {
+	background: url(http://www.hokutousuisan.com/recruit_img_01.jpg) no-repeat right top;
+	width: 920px;
+}
+table.recruit_02 {
+	width: 920px;
+}
+table.recruit_02 th {
+	width: 150px;
+	background: #2F4525;
+	padding: 10px 0px 10px 15px;
+	text-align: left;
+	border: 1px #ccc solid;
+	font-weight: normal;
+}
+table.recruit_02 td {
+	padding: 10px 0px 10px 15px;
+	text-align: left;
+	border: 1px #ccc solid;
+}
+
+/*--------------------------------------------
+ブログ
+--------------------------------------------*/
+#blog_left {
+	width: 185px;
+	float: left;
+}
+#blog_right {
+	width: 685px;
+	float: right;
+}
+h2.blog_tit01 {
+	width: 175px;
+	background: url(http://www.hokutousuisan.com/blog_line.jpg);
+	height: 40px;
+	line-height: 40px;
+	color: #E0B338;
+	font-size: 16px;
+	font-weight: bold;
+	padding-left: 10px
+}
+h2.blog_tit02 {
+	width: 685px;
+	background: url(http://www.hokutousuisan.com/blog_line.jpg);
+	height: 40px;
+	line-height: 40px;
+	color: #E0B338;
+	font-size: 16px;
+	font-weight: bold;
+	padding-left: 10px
+}
+ul.blog_news_list {
+	margin: 15px 0 0 0;
+	padding: 0px;
+}
+ul.blog_news_list li {
+	list-style-position: outside;
+	margin-left: 20px;
+	font-size: 12px;
+}
+.blog_text {
+	display: block;
+	line-height: 180%;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	padding: 0 10px 0 10px;
+}
+
+/*--------------------------------------------
+商品カルテ
+--------------------------------------------*/
+.loginbg { background: url(http://www.hokutousuisan.com/chart_bg_01.jpg) ;padding:30px; width:390px; height: 191px; position: relative; margin: 30px auto;}
+.loginbg p {color: #1A1A1A; padding: 30px 0 ;}
+.loginbg input.text{ width:220px; height: 25px; }
+aside { width: 180px; float: left; background: #fff; color: #1a1a1a; padding:10px;}
+aside h3 { font-size: 18px; font-family:"ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif; background: url(../img/side_title_bg.jpg) no-repeat bottom; padding:0 0 10px 0 ;margin: 0 0 20px 0 ;}
+aside ul li a{ color: #1a1a1a;}
+aside ul li { list-style:none;}
+.main { width: 680px; float:right;} 
+.main dl dt { background: #E0B338; color: #1a1a1a; padding: 0 10px;}
+.main dl dd { padding: 5px 0 ;}
+
+/*section.factory01 { background: url(http://www.hokutousuisan.com/factory_img_01.jpg) no-repeat; position:relative; width: 934px; height: 326px;}
+section.factory01 p {	position:absolute;	left: 12px;	top: 196px;	font-size:18px;	width: 479px; line-height: 140%;}
+section.factory02 img { padding:10px 0 ;}
+section.factory03 ul {    margin: 0 -45px 0 0;    /zoom: 1;}
+section.factory03 ul li {     margin: 0 45px 0 0;    float: left; width:437px; list-style:none;}
+section.factory03 ul li p { padding: 10px 0 20px 0;}
+section.factory04 { background: url(http://www.hokutousuisan.com/img/factory_img_09.jpg) no-repeat right center; height: 353px; position:relative;}
+section.factory04 dl dt { padding: 0 0 10px 0 ;}*/
+
+.chart_lists li{
+	list-style-type:none;
+	margin:0 0 15px 0;
+	}
+.chart_lists li a{
+    background: #E0B338 url(http://www.hokutousuisan.com/icon01.png) no-repeat 5px 50%;
+    color: #1A1A1A;
+    padding: 0 20px;
+	text-decoration:none;
+	display:block;
+	}
+.chart_lists li a:hover{background: #f1d483 url(http://www.hokutousuisan.com/icon01.png) no-repeat 5px 50%;}
+.chart_h3{
+	font-size:110%;
+	padding:0 0 2px 0;
+	margin:0 0 10px 0;
+	color:#fff;
+	border-bottom:#fff solid 1px;
+	}
+.mb50{margin-bottom:50px;}
+.waku{
+	background-color:#000;
+	margin:0 10px 10px 0;
+	}
+
+/*--------------------------------------------
+新着情報
+--------------------------------------------*/
+.topics_wrapper {
+	padding:0 0 20px 0;}
+.topics {
+	font-size:14px;
+	color:#eee;
+	line-height:180%;
+	padding:20px 0 10px 0;}
+.topics p{
+	padding:0 0 15px 0;}
+
+
+.arrow {
+	padding:10px 0 10px 0;
+	font-size:14px;}
+.arrow.on {
+	border-top:1px dotted #ccc;}
+.arrow ul{
+	list-style-type:none;
+	padding:10px 0 10px 0;
+	font-size:14px;}
+.arrow li{ width:200px;}
+.arrow .prev{ float:left;}
+.arrow .next{ float:right; text-align:right;}
+.arrow p{
+	clear:both;
+	text-align:center;
+	padding:40px 0 0 0;}
+.arrow a{ color:#E0B338;}
+.arrow a:active{ color:#E0B338;}
+.arrow a:visited{ color:#E0B338;}
+.arrow a:hover{ color:#fff;}
+
+.alignleft {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 5px;
+}
+.alignright {
+	float:right;
+	margin-left: 10px;
+	margin-bottom: 5px;
+}
+.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.title_cat1{
+	font-size: 20px;
+	color:#E0B338;
+	padding-bottom:20px;
+	font-family: "ヒラギノ明朝 Pro W3","Hiragino Mincho ProN","HGS明朝E","ＭＳ Ｐ明朝",serif;}

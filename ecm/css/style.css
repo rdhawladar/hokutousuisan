@@ -1,0 +1,181 @@
+@charset "utf-8";
+
+
+.right_portion3{
+	padding: 35px;
+    margin-top: -75px;
+    float: left;
+    padding-bottom: 2px;
+}
+
+.right_portion3 img, .right_portion3 h3{
+	float: left;
+	padding: 8px;
+	width: 100%;
+	height: 120px
+}
+
+.right_portion3 h3{
+	margin-top: 21px;
+    font-size: 16px;
+    font-weight: bold;
+    max-width: 164px;
+   
+}
+
+.right_portion4{
+	padding: 15px;
+    width: 70%;
+    margin-top: 0px;
+    max-height: 120px;
+    overflow: hidden;
+    font-size: 12px;	
+    margin-left: 27px;
+    color:#fff;
+}
+
+body {
+	margin: 0px;
+	line-height: 160%;
+	color: #fff;
+	font-family: "メイリオ", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 14px;
+	
+}
+article {
+	line-height: 160%
+}
+a {
+	text-decoration: none;
+	color: #FFF;
+}
+a:visited {
+	text-decoration: none;
+	
+}
+a:hover {
+	text-decoration: underline;
+	color: #E0B338;
+}
+
+a:active {
+	text-decoration: none;
+
+}
+/*-----------------------------------------------
+Base
+-----------------------------------------------*/
+a img { border: 0px;}
+p { margin:0px; padding:0px;}
+
+.no_hover {
+	opacity:1.0;
+    filter: alpha(opacity=100);
+    -ms-filter: "alpha( opacity=100 )";
+}
+
+h1 { margin: 0px; padding: 0px; font-weight: normal;}
+h2 { margin: 0px; padding: 0px; font-weight: normal;}
+h3 { margin: 0px; padding: 0px; font-weight: normal;}
+h4 { margin: 0px; padding: 0px; font-weight: normal;}
+h5 { margin: 0px; padding: 0px; font-weight: normal;}
+
+.left { float: left;}
+.right { float: right;}
+
+.t_center { text-align: center;}
+.t_right { text-align: right;}
+.t_left { text-align: left;}
+
+img.center { display: block; margin: auto;}
+
+.bloc { display: block;}
+
+/*-----------------------------------------------
+ワイド設定
+-----------------------------------------------*/
+.w20 { width: 20px;}
+.w30 { width: 30px;}
+.w150 { width: 150px;}
+/*-----------------------------------------------
+Margin
+-----------------------------------------------*/
+
+.mt5 { margin-top: 5px;}
+.mt10 { margin-top: 10px;}
+.mt15 { margin-top: 15px;}
+.mt20 { margin-top: 20px;}
+.mt25 { margin-top: 25px;}
+.mt30 { margin-top: 30px;}
+.mt40 { margin-top: 40px;}
+.mt60 { margin-top: 60px;}
+
+.mb5 { margin-bottom: 5px;}
+.mb10 { margin-bottom: 10px;}
+.mb15 { margin-bottom: 15px;}
+.mb20 { margin-bottom: 20px;}
+.mb25 { margin-bottom: 25px;}
+.mb30 { margin-bottom: 30px;}
+.mb40 { margin-bottom: 40px;}
+.mb50 { margin-bottom: 50px;}
+.mb200{ margin-bottom: 200px;}
+
+.ml5 { margin-left: 5px;}
+.ml6 { margin-left: 6px;}
+.ml7 { margin-left: 7px;}
+.ml10 { margin-left: 10px;}
+.ml15 { margin-left: 15px;}
+.ml20 { margin-left: 20px;}
+.ml25 { margin-left: 25px;}
+.ml30 { margin-left: 30px;}
+.ml35 { margin-left: 35px;}
+
+.mr5 { margin-right: 5px;}
+.mr10 { margin-right: 10px;}
+.mr15 { margin-right: 15px;}
+.mr20 { margin-right: 20px;}
+.mr25 { margin-right: 25px;}
+.mr27 { margin-right: 13px;}
+.mr30 { margin-right: 30px;}
+.mr23 { margin-right: 23px;}
+/*-----------------------------------------------
+フォントサイズ
+-----------------------------------------------*/
+.font10 {font-size: 10px;}
+.font11 {font-size: 11px;}
+.font12 {font-size: 12px;}
+.font14 {font-size: 14px;}
+.font16 {font-size: 16px;}
+.font18 {font-size: 18px;}
+.font20 {font-size: 20px;}
+.font22 {font-size: 22px;}
+.font26 {font-size: 26px;}
+.font22 {font-size: 22px;}
+.font32 {font-size: 32px;}
+/*-----------------------------------------------
+フォント　カラー
+-----------------------------------------------*/
+.def { color: #6C6C60;}
+.wht { color:#FFF;}
+.org { color: #E0B338;}
+.nvy { color: #304072;}
+.lgrn { color: #00A29A;}
+.prl { color: #9B9BF9;}
+/*-----------------------------------------------
+フォント　書体
+-----------------------------------------------*/
+.bold { font-weight: bold;}
+.normal { font-weight: normal;}
+.f_hg { font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;}
+.f_hm { font-family: "ヒラギノ明朝 Pro W6","Hiragino Mincho ProN","HGS明朝E","ＭＳ Ｐ明朝",serif;}
+.f_ab { font-family: "Arial Black", Gadget, sans-serif;}
+.f_ab img { vertical-align: middle;}
+/*-----------------------------------------------
+その他
+-----------------------------------------------*/
+.kasen { text-decoration:underline;}
+.kazari { text-shadow:0 0 1px #fff, 0 0 1px #fff, 0 0 1px #bbb, 0 0 1px #fff;}
+.b_btm { border-bottom: 1px #DCF2E6 solid; margin: 15px 0 15px 0;}
+.center { text-align:center;}
+.alignright { text-align:right;}
+img.left { float: left; padding: 0 10px 10px 0 ;}

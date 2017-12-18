@@ -1,0 +1,400 @@
+@charset "utf-8";
+/*-----------------------------------------------
+ラッパー枠
+-----------------------------------------------*/
+#wrapper {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+#top_cnt_wp {
+	width: 960px;
+	margin: 0 auto;
+	text-align: left;
+}
+/*-----------------------------------------------
+new home layout
+-----------------------------------------------*/
+a:hover.ov {
+    opacity:0.6;
+    filter: alpha(opacity=60);
+    -ms-filter: "alpha( opacity=60 )";
+	/* For IE 5-7 */
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+    /* For IE 8 */
+    -MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+}
+.ov a:hover {
+    opacity:0.6;
+    filter: alpha(opacity=60);
+    -ms-filter: "alpha( opacity=60 )";
+	/* For IE 5-7 */
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+    /* For IE 8 */
+    -MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+}
+a:hover img.ov2 {
+    opacity:0.6;
+    filter: alpha(opacity=60);
+    -ms-filter: "alpha( opacity=60 )";
+	/* For IE 5-7 */
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+    /* For IE 8 */
+    -MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+}
+
+/*-----------------------------------------------
+ヘッダ
+-----------------------------------------------*/
+#header_wp {
+	width: 398px;
+	height: 750px;
+	background: url(http://www.kojohama.com/img/top_bg_01.jpg);
+	float: right;
+}
+#hader_wp2 {
+	width: 398px;
+	height: 750px;
+	position: relative;
+}
+h1.top_logo a {
+	/*background: url(http://www.kojohama.com/img/top_logo.png);*/
+    width: 264px;
+    height: 112px;
+    display: block;
+    position: absolute;
+    top: 10px;
+    /* left: 76px; */
+    font-size: 1px;
+    text-indent: -9999px;
+    margin-left: 423px;
+}
+img.logo_sita_img {
+	position:absolute;
+	top: 140px;
+	left: 124px;
+}
+h2.header_text01 {
+	position:absolute;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: "ヒラギノ明朝 Pro W3","Hiragino Mincho ProN","HGS明朝E","ＭＳ Ｐ明朝",serif;
+	color:#FFF;
+	top: 305px;
+	left: 110px;
+	line-height: 20px;
+}
+h4.header_text02 {
+	position: absolute;
+	font-size: 12px;
+	color: #FFF;
+	font-family: "ヒラギノ明朝 Pro W3","Hiragino Mincho ProN","HGS明朝E","ＭＳ Ｐ明朝",serif;
+	top: 335px;
+	left: 100px;
+	text-align: center;
+	line-height: 20px;
+}
+#header_img_01 {
+	width: 80px;
+	height: 80px;
+	padding: 5px;
+	filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#33ffffff, endcolorstr=#33ffffff, gradienttype=1); /* IE用 */
+    background-color: rgba(255, 255, 255, 0.2);
+	position: absolute;
+	top: 545px;
+	left: 55px;
+}
+.header_img_02 {
+	background: url(http://www.kojohama.com/img/top_img_03.png);
+	width: 165px;
+	height: 35px;
+	position: absolute;
+	left: 170px;
+	top: 573px;
+	font-size: 1px;
+	text-indent: -9999px;
+}
+/*-----------------------------------------------
+Gナビ
+-----------------------------------------------*/
+.nav_line_01 {
+    position: absolute;
+    left: 40%;
+    top: 118%;
+}
+.nav_line_02 {
+    position: absolute;
+    left: 40%;
+    top: 142%;
+}
+nav#top_nav {
+	width: 301px;
+	height: 110px;
+	position: absolute;
+	top: 405px;
+	left: 49px;
+}
+nav#top_nav dl{
+	list-style-type:none;
+    padding: 0px;
+	margin: 0px auto;
+	width: 301px;
+	display: block;
+	height: 110px;
+}
+nav#top_nav dl dd {
+	float:left;
+	font-size: 1px;
+	text-indent: -9999px;
+	}
+nav#top_nav dl dd a{
+	display:block;
+	width: 43px;
+	height: 110px;
+	background: url(http://www.kojohama.com/img/nav.png);
+}
+
+nav#top_nav dl dd#navi01 a{ background-position: 0px 0px;}
+nav#top_nav dl dd#navi02 a{ background-position: -43px 0px;}
+nav#top_nav dl dd#navi03 a{ background-position: -86px 0px;}
+nav#top_nav dl dd#navi04 a{ background-position: -129px 0px;}
+nav#top_nav dl dd#navi05 a{ background-position: -171px 0px;}
+nav#top_nav dl dd#navi06 a{ background-position: -213px 0px;}
+nav#top_nav dl dd#navi07 a{ background-position: -255px 0px;}
+
+nav#top_nav dl dd#navi01on a{ background-position: 0px 110px;}
+nav#top_nav dl dd#navi02on a{ background-position: -43px 110px;}
+nav#top_nav dl dd#navi03on a{ background-position: -86px 110px;}
+nav#top_nav dl dd#navi04on a{ background-position: -129px 110px;}
+nav#top_nav dl dd#navi05on a{ background-position: -171px 110px;}
+nav#top_nav dl dd#navi06on a{ background-position: -213px 110px;}
+nav#top_nav dl dd#navi07on a{ background-position: -255px 110px;}
+
+nav#top_nav dl dd#navi01 a:hover{ background-position: 0px 110px;}
+nav#top_nav dl dd#navi02 a:hover{ background-position:-43px 110px;}
+nav#top_nav dl dd#navi03 a:hover{ background-position:-86px 110px;}
+nav#top_nav dl dd#navi04 a:hover{ background-position:-129px 110px;}
+nav#top_nav dl dd#navi05 a:hover{ background-position:-171px 110px;}
+nav#top_nav dl dd#navi06 a:hover{ background-position:-213px 110px;}
+nav#top_nav dl dd#navi07 a:hover{ background-position:-255px 110px;}
+
+
+/*-----------------------------------------------
+Ajax部分
+-----------------------------------------------*/
+#top_ajax_wp {
+	width: 100%;
+	height: 750px;
+	float: left;
+}
+/*-----------------------------------------------
+レフト・メイン・ライトコンテンツ 枠
+-----------------------------------------------*/
+
+
+/*-----------------------------------------------
+サイド コンテンツ
+-----------------------------------------------*/
+
+/*-----------------------------------------------
+トップページ
+-----------------------------------------------*/
+#info_wp {
+	width: 100%;
+	height: 100px;
+    filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#b24b4b4b, endcolorstr=#b24b4b4b, gradienttype=1); /* IE用 */
+	background-color: rgba(75, 75, 75, 0.5);
+	position: absolute;
+	top: 685px;
+	left: 0px;
+	z-index: 10;
+}
+#info_wp2 {
+	width: 960px;
+	margin: 0 auto;
+	height: 100px;
+	position: relative;
+	text-align: left;
+}
+h2.top_info_tit {
+	background: url(http://www.kojohama.com/img/top_img_11.png);
+	width: 92px;
+	height: 32px;
+	font-size: 1px;
+	text-indent: -9999px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+.top_info_list_wp {
+	height: 80px;
+	overflow: auto;
+	display: block;
+	width: 435px;
+	position: absolute;
+	top: 10px;
+	left: 358px;
+}
+dl.top_info_list {
+	display: block;
+}
+dl.top_info_list dt {
+	width: 105px;
+	line-height: 25px;
+	float: left;
+	color: #9C5E00;
+	display: block;
+	font-family: "ヒラギノ明朝 Pro W3","Hiragino Mincho ProN","HGS明朝E","ＭＳ Ｐ明朝",serif;
+}
+dl.top_info_list dd {
+	width: 300px;
+	line-height: 25px;
+	float: left;
+	display: block;
+	color:#FFF;
+	font-family: "ヒラギノ明朝 Pro W3","Hiragino Mincho ProN","HGS明朝E","ＭＳ Ｐ明朝",serif;
+}
+dl.top_info_list dd a {
+	color: #FFF;
+	text-decoration: underline;
+	font-family: "ヒラギノ明朝 Pro W3","Hiragino Mincho ProN","HGS明朝E","ＭＳ Ｐ明朝",serif;
+}
+.top_ad {
+	position: absolute;
+	left: 590px;
+	top: 5px;
+	font-family: "ヒラギノ明朝 Pro W3","Hiragino Mincho ProN","HGS明朝E","ＭＳ Ｐ明朝",serif;
+	color: #FFF;
+}
+.top_ad h2 {
+	font-size: 16px;
+	line-height: 25px;
+}
+.top_ad address {
+	font-style: normal;
+	line-height: 20px;
+}
+.top_contact_btn {
+	position: absolute;
+	left: 590px;
+	bottom: 10px;
+}
+/*-----------------------------------------------
+フッタ
+-----------------------------------------------*/
+footer#top_footer {
+	width: 960px;
+	height: 165px;
+	margin: 0 auto;
+	position: relative;
+	background: url(http://www.kojohama.com/img/top_bg_02.jpg);
+	text-align: left;
+}
+
+h3.top_bnr_01 a {
+	background: url(http://www.kojohama.com/img/img/top_img_05.jpg);
+	width: 430px;
+	height: 110px;
+	display: block;
+	font-size: 1px;
+	text-indent: -9999px;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+.top_bnr_01_text {
+	position: absolute;
+	font-size: 12px;
+	color:#FFF;
+	line-height: 15px;
+	left: 20px;
+	top: 135px;
+}
+.top_bnr_02 a {
+	position: absolute;
+	background: url(http://www.kojohama.com/img/top_img_06.jpg);
+	width: 220px;
+	height: 60px;
+	font-size: 1px;
+	text-indent: -9999px;
+	top: 20px;
+	right: 250px;
+}
+.top_bnr_03 {
+	position: absolute;
+	background: url(http://www.kojohama.com/top_img_07.jpg);
+	width: 220px;
+	height: 60px;
+	font-size: 1px;
+	text-indent: -9999px;
+	top: 20px;
+	right: 20px;
+}
+.top_bnr_03_text {
+	position: absolute;
+	width: 220px;
+	line-height: 15px;
+	top: 85px;
+	right: 20px;
+	font-size: 12px;
+	color: #FFF;
+}
+.top_bnr_04 a {
+	background: url(http://www.kojohama.com/top_img_08.png);
+	width: 90px;
+	height: 22px;
+	display: block;
+	font-size: 1px;
+	text-indent: -9999px;
+	position: absolute;
+	top: 125px;
+	right: 240px;
+}
+.top_bnr_05 a {
+	background: url(http://www.kojohama.com/top_img_09.png);
+	width: 110px;
+	height: 22px;
+	display: block;
+	font-size: 1px;
+	text-indent: -9999px;
+	position: absolute;
+	top: 125px;
+	right: 120px;
+}
+.top_bnr_06 a {
+	background: url(http://www.kojohama.com/top_img_10.png);
+	width: 90px;
+	height: 22px;
+	display: block;
+	font-size: 1px;
+	text-indent: -9999px;
+	position: absolute;
+	top: 125px;
+	right: 20px;
+}
+#copy {
+	background: #9C5E00;
+	text-align: center;
+	color:#000;
+	width: 100%;
+	line-height: 20px;
+	font-size: 12px;
+	font-family: "ヒラギノ明朝 Pro W3","Hiragino Mincho ProN","HGS明朝E","ＭＳ Ｐ明朝",serif;
+}
+/*-----------------------------------------------
+clearfix
+-----------------------------------------------*/
+.clear { clear: both;	visibility: visible;
+}
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+.clearfix {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
