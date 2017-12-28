@@ -21,6 +21,7 @@ use App\Footer;
 use App\Pro_order;
 use App\Order_list;
 use App\Prefectures;
+use App\Order_date_range;
 use Session;
 use Mail;
 
@@ -97,6 +98,7 @@ class ShopManagerController extends Controller
         $footer 	= Footer::orderBy('id','asc')->get();
         $otherpage 	= Otherpage::orderBy('id','asc')->get();
         $prefectures= Prefectures::orderBy('id','asc')->get();
+        $order_date_range= Order_date_range::where('id', 1)->first();
         
 
 		$total 			= $this->cart_cal();
@@ -270,6 +272,7 @@ class ShopManagerController extends Controller
 		            ->with('pro_order', $pro_order)
 		            ->with('product', $product)
 		            ->with('prefectures', $prefectures)
+		            ->with('order_date_range', $order_date_range)
 		            ->with('session', $session_id);
 		else return redirect('/my-cart')->with('fail','チェックアウトする商品を選択してください。');
 	}

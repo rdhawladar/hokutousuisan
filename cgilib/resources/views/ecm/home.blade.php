@@ -94,8 +94,8 @@
 		    width: 960px;
 		}		
 
-		.slider-text{z-index: 6; font-size: 20px; width: 100%; margin-top: 2%; top: 0; left: 0; position: absolute;}
-		.slider-text h1{font-size: 20px; width: 85%; text-align: center;padding: 14px; color: #fff;margin: 0 auto; background-color: rgba(75, 75, 75, 0.5);}
+		.slider-text{z-index: 6; font-size: 20px; width: 100%; top: 0; left: 0; position: absolute;}
+		.slider-text h1{font-weight: bold; font-size: 30px; width: 100%; text-align: center;padding: 6px; color: #000;margin: 0 auto; background-color: rgba(255, 255, 255, 0.35);}
 		.home-footer{margin-top: 300px;}
             .top-logo{height: 155px;background: url({{ $logo_url }});background-repeat: no-repeat;margin-left: 16%;margin-top: 15%;    background-size: 80% 90%;}		
 
@@ -202,7 +202,8 @@
 		</div>
 		<div id="top_ajax_wp">
 			<div class="slider-text">
-				<h1>『北海道の絶品海産物を産地直送でお送りいたします</h1>
+				<h1>『北海道の絶品海産物を</h1>
+				<h1>産地直送でお送りいたします</h1>
 				<h1>美味しい当地グルメを皆さまの食卓に。』</h1>
 			</div>
 			<div class="slider-wrapper theme-default">
@@ -240,7 +241,7 @@
 		</div>
 		<div class="top_info_list_wp">				
 			@foreach($newsfeed as $news)
-				<dl class="top_info_list"><dt>{{ $news-> created_at }}</dt><dd><a href="{{ url('news/'.$news->id) }}" title="test title " class="ov_f">{{ $news->newsfeed_title}}</a></dd></dl>
+				<dl class="top_info_list"><dt>{{ $news-> created_at->format('Y m d') }}</dt><dd><a href="{{ url('news/'.$news->id) }}" title="test title " class="ov_f">{{ $news->newsfeed_title}}</a></dd></dl>
 			@endforeach
 		</div> 
 	</div>

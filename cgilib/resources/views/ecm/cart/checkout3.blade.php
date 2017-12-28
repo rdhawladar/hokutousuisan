@@ -88,9 +88,12 @@
                            <td colspan="2">
                                 <!-- <select class="select" oninvalid="this.setCustomValidity('Please select お届け希望日')" oninput="setCustomValidity('')" name="order_date" id="harea" style="background: #555;margin-bottom: 15px;">                             -->
                                 <select class="select" name="order_date" style="background: #555;margin-bottom: 15px;">
-                                   
+                                    @php 
+                                        $min = $order_date_range->min_delivery_date;
+                                        $max = $order_date_range->max_delivery_date;
+                                    @endphp
                                     <option value="{{date("0-0-0")}}">指定しない（最短発送になります）</option>
-                                    @for($count = 7; $count<=15 ; $count++)
+                                    @for($count = $min; $count<=$max ; $count++)
                                         <option value="{{date("Y-m-d", strtotime("+$count day", strtotime(date('Y-m-d'))))}} "> {{date("Y-m-d", strtotime("+$count day", strtotime(date('Y-m-d'))))}}</option>
                                     @endfor
 
@@ -100,7 +103,7 @@
                                 <span class="notes">お届け希望日を選択した場合は、配達店でのお荷物お預かり期間が短くなりますので、必ずご指定日にお受け取りください。 保管期限を過ぎますと、商品が自動的に返送となりますのでご注意ください。</span>                            
                             </td>
                         </tr>
-                            <th> 指定時間帯  </th>
+                            <th> 指定時間帯 </th>
                            <td colspan="2">
                             <!-- oninvalid="this.setCustomValidity('Please select お届け希望日')" oninput="setCustomValidity('')" -->
                                 <select class="select"  name="order_time" id="harea" style="background: #555; " >

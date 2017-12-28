@@ -4,9 +4,9 @@
     <section class="sidebar">
       <!-- Sidebar user panel -->
       <div class="user-panel">
-        <div class="pull-left image">
+<!--         <div class="pull-left image">
           <img src="{{ URL::asset('/assets/dist/img/user2-160x160.jpg') }}" class="img-circle" alt="User Image">
-        </div>
+        </div> -->
 <!--         <div class="pull-left info">
           <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
         </div> -->
@@ -58,7 +58,11 @@
                 </ul>
             </li>  
             
- 
+            <li>
+                <a href="{{ url('/admin/order-date-range') }}">
+                  <i class="fa fa-envelope"></i> <span>配信日設定</span>
+                </a>
+            </li> 
             
 
             <li id="tree_nine" class="treeview">
@@ -125,6 +129,8 @@
                   <li><a href="{{ url('/admin/message-list') }}"><i class="fa fa-circle-o"></i>全てのメッセージ</a></li>
                 </ul>
             </li> 
+
+
             
 <!--            <li id="tree_nine" class="treeview">
                 <a href="#">

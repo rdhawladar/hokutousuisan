@@ -5,6 +5,7 @@ use App\Http\Requests;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Logo;
+use App\Order_date_range;
 
  
 class LogoController extends Controller
@@ -45,7 +46,37 @@ class LogoController extends Controller
 		
 		return redirect('/admin/logo-edit/'.$id)->with('success','更新されました。');  
 	}
-	
+
+	public function order_date_range_edit()
+	{
+		$topics = Order_date_range::get()->where('id', 1)->first();
+		return view('ecm_admin.pro_order.order_date_range_edit')
+				->with('topics',$topics);
+	}	
+
+		
+	public function order_date_range_edit_action(Request $r)
+	{
+		
+		$validator = \Validator::make($r->all(),[				
+			'min_delivery_date' => 'required',
+			'max_delivery_date' => 'required'
+		]);
+		
+		if ($validator->fails()) {
+            return redirect('/admin/order-date-range') 
+                        ->withErrors($validator)
+                        ->withInput();
+        } 
+        
+    		$t = Order_date_range::get()->where('id', 1)->first();
+    		$t->min_delivery_date      = trim($r->input("min_delivery_date"));
+    		$t->max_delivery_date      = trim($r->input("max_delivery_date"));
+    		$t->update();
+        
+		
+		return redirect('/admin/order-date-range')->with('success','更新されました。');  
+	}
 
 	
 }

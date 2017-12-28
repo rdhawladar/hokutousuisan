@@ -1,9 +1,9 @@
  @extends('ecm.header')
  @section('content')
     
-    <link rel="stylesheet" type="text/css" href="{{ URL::asset('ecm/css/login.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ URL::asset('ecm/css/mycart.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ URL::asset('ecm/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ URL::asset('ecm/css/login.css') }}">
 
     <style type="text/css">
       .profile tr{ background: transparent; color: #000; border: none;}
@@ -17,7 +17,7 @@
       .header{opacity: 1;}
       .header p{float: left;}
     </style>
-    <div class="container page">
+    <div class="container page" style="width: 90%;">
         <div class="header">
             <a href="{{ url('/user/logout') }}"  style="float: right;"><button class= "logout" style="">ログアウト</button></a>
                     @if (Session::get('success'))

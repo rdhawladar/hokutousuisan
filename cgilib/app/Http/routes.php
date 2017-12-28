@@ -313,6 +313,8 @@ Route::group(['prefix' => 'admin'], function(){
         //Logo Chnage
         Route::get('/logo-edit/{id}',      		 'Ecm\LogoController@logo_edit');
         Route::post('/logo-edit-action',           'Ecm\LogoController@logo_edit_action');
+        Route::get('/order-date-range',           'Ecm\LogoController@order_date_range_edit');
+        Route::post('/order-date-range-edit-action',           'Ecm\LogoController@order_date_range_edit_action');
 
 /*        //Address and thumbnail image
         Route::get('/address', 		       		 	'Ecm\AddressController@address_edit');
