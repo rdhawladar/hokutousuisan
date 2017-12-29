@@ -3686,4 +3686,548 @@ CREATE TABLE `user` (
 INSERT INTO `user` (`id`, `first_name`, `last_name`, `nick_name`, `email`, `readable_password`, `password`, `premium_password`, `premium_amount`, `remember_token`, `line_id`, `dob`, `hobby`, `special_skill`, `gender_type`, `future_dream`, `self_introduction`, `profile_picture`, `status`, `last_login_time`, `created_at`, `updated_at`, `email_perm`, `line_id_perm`, `dob_year_perm`) VALUES
 (1, 'Samer', 'Sarker', 'khokon', 'samerseu@gmail.com', 'khokon2015', '$2y$10$4t4tD9C7pGg0RHMff6TOQ.QobcXodQEMujYnn0hSPo/CVw9cE09zm', '1234', 0.00, 'xduWe4OnqR8lY1n3r7ScMJ4mZ5Pabvpcy9F87pkLPJtYRTNjIx5HmXMRUCni', 'samerseu', '1987-11-10', 'hi', 'hi how', 'Female', 'hi man', 'hello', 'user4-128x128.jpg', 'ACTIVE', '0000-00-00 00:00:00', '2017-10-05 23:52:43', '2017-10-05 17:52:43', 'public', 'private', 'private'),
 (23, 'masaya', 'kato', 'kato', 'roppongi.katou@gmail.com', 'marlboro1217', '$2y$10$8FlrDy5MgooOJAWSRAWiIO1o7yxf71hvhYLmOMXDUOiLd2BxDTp2C', '', 0.00, '', 'ktmsy1217', '1986-12-17', '読書／写真／映画鑑賞／仮面ライダー', '写真／映像編集', '綺麗なおでこの優しい人', '幸せな家庭を築く\r\n海外を含めた芸術製作活動', '加藤と申します。\r\nクリエイターとして俺たちの秘密基地に参加することを嬉しく、誇りに思います。\r\n製作者としての視点で、人生を豊かにしていくことを目標に\r\n秘密基地の仲間とクリエイティビティを高めていければと思います。\r\nよろしくお願いいたします。', '20171003094904_IMG_1453.JPG', 'ACTIVE', '0000-00-00 00:00:00', '2017-10-03 04:04:08', '2017-10-02 22:04:08', 'private', 'private', 'private'),
-(24, '', '', 'かみむら', 'kamimura_sho@yahoo.co.jp', '123231', '$2y$10$QCVi7VmEuc8q3CZV.fw5Qu05LTgiSHacZiuUOV/cu57ulhATZVS8C', '', 0.00, '', '', '1986-08-14', '寝ること。', '寝ること。', '可愛い子。', '世界征服。', 'よろしくお願いします。', '20171001174818_IMG_9910.JPG', 'ACTIVE', '0000-00-00 00:00:00', '2017-10-03 02:02:31', '2017-10-02 20:02:31', 'private', 'private', 'public')
+(24, '', '', 'かみむら', 'kamimura_sho@yahoo.co.jp', '123231', '$2y$10$QCVi7VmEuc8q3CZV.fw5Qu05LTgiSHacZiuUOV/cu57ulhATZVS8C', '', 0.00, '', '', '1986-08-14', '寝ること。', '寝ること。', '可愛い子。', '世界征服。', 'よろしくお願いします。', '20171001174818_IMG_9910.JPG', 'ACTIVE', '0000-00-00 00:00:00', '2017-10-03 02:02:31', '2017-10-02 20:02:31', 'private', 'private', 'public'),
+(25, 'むねつぐ', '村上', 'つぐ', 'munetsugu.murakami@gmail.com', '1234', '$2y$10$rxsg5TuRowEs7ZtSjWmdU.pjCKXeIvpYYAfEfRfk3HuNxi2k6UYA6', '', 0.00, 'VXQOUHWFUnBiKdqUd9gCGYJXyPBR7LdamJpsLPM1xTLCIZtN17GhcSwEP9x8', '', '1978-01-10', '人身売買', '悪徳商法', '毎日性行為が出来る人', 'おくまんちょうじゃ〜', '「最も神に近い男」と呼ばれたい男、村上宗嗣です。\r\n\r\n『俺達の秘密基地』が「世界で一番バカな企画」と言われるように\r\nみんなと一緒にバカになりたいと思っています。\r\n\r\n一緒に楽しみましょう！', '20171002041557_IMG_1076.jpg', 'ACTIVE', '0000-00-00 00:00:00', '2017-10-01 22:16:09', '2017-10-01 16:16:09', 'private', 'private', 'public'),
+(26, '圭', '七尾', '', '78graphic@gmail.com', '1234', '$2y$10$MONdjiIROGY.bOYXZM2yluYINaS5WZq7G/N.w4wL0bXDN0ZczOr8S', '', 0.00, '', '', '0000-00-00', 'my hobby', 'special skill test', '', '', '', 'user4-128x128.jpg', 'ACTIVE', '0000-00-00 00:00:00', '2017-09-29 01:51:07', '2017-09-26 00:15:44', 'public', 'public', 'public'),
+(27, '俊晴　', '中', '', '06l1145@gmail.com', '1234', '$2y$10$iFj32k8sjyDQPPWZzRHsOOlbvzL8SEOWsHbUdiUPxBw7vJSXIalKC', '', 0.00, '', '', '0000-00-00', 'my hobby', 'special skill test', '', '', '', 'user4-128x128.jpg', 'ACTIVE', '0000-00-00 00:00:00', '2017-09-29 01:51:08', '2017-09-26 00:16:15', 'public', 'public', 'public'),
+(28, 'Masaki', 'K', 'マサキ', 'msk.k.power@gmail.com', 'msk8msk', '$2y$10$6p/k2CpJVIsUIVVcIT/XFON57yjffKvldAQjtT1BtFcqr34CE8JBG', 'msk8msk', 0.00, 'iuG2KKJhQNUfnBFuOYHmpHfH87tP7wjt15ruKxRFrvR2YW4WuNRluO9dBCXv', '', '2017-12-16', '世の中のキーワード探し', 'キーワードからの想像力', 'おっさん以外w', '悪魔の実を栽培すること', 'ワクワクドキドキするような毎日を皆さんと一緒に作って、楽しく遊びたいので、よろしくお願いしまーす！', '20170926123619_12345.png', 'ACTIVE', '0000-00-00 00:00:00', '2017-10-05 00:08:47', '2017-10-04 18:08:47', 'private', 'private', 'private'),
+(29, '', 'クニー', 'Z', 'surf920@gmail.com', 'hippop920', '$2y$10$u2RP./lKtiNTAMHcL./VkexTtIQRviT3JDsqh8dlscfFHmODjOJ3e', 'hippop920', 0.00, 'tf1POu2jpywNoOglsv0GlW9MqqlFlI1SlSQQGWb43eVXJpII8TOL71IzyZYI', '', '1981-03-21', '自分を進化させること。', 'あなたの時間を増やす、ツールを開発すること。', '好みはコロコロ変わるんですが、ケツがプリッとして、手足が長めの、身長160cm〜166cmの、健康的な食事が好きな、透明感のある女の子が好みです。', 'エコな社会を作ること。', 'こんにちはZです。俺達の秘密基地は今後何度かバージョンアップしていきます。何か追加して欲しい機能があればドシドシご連絡して下さい。', '20170927145447_20170803_141033.jpg', 'ACTIVE', '0000-00-00 00:00:00', '2017-10-05 22:24:27', '2017-10-05 16:24:27', 'private', 'private', 'private');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `users`
+--
+
+CREATE TABLE `users` (
+  `id` int(11) NOT NULL,
+  `sname1` varchar(400) COLLATE utf8_unicode_ci NOT NULL,
+  `sname2` varchar(400) COLLATE utf8_unicode_ci NOT NULL,
+  `fname1` varchar(400) COLLATE utf8_unicode_ci NOT NULL,
+  `fname2` varchar(400) COLLATE utf8_unicode_ci NOT NULL,
+  `email` varchar(500) COLLATE utf8_unicode_ci NOT NULL,
+  `zip_code1` int(11) NOT NULL,
+  `zip_code2` int(11) NOT NULL,
+  `prefecture` varchar(11) COLLATE utf8_unicode_ci NOT NULL,
+  `municipality` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
+  `password` varchar(550) COLLATE utf8_unicode_ci NOT NULL,
+  `redable_pass` varchar(550) COLLATE utf8_unicode_ci NOT NULL,
+  `address` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
+  `mobile` text COLLATE utf8_unicode_ci NOT NULL,
+  `status` varchar(11) COLLATE utf8_unicode_ci NOT NULL,
+  `remember_token` varchar(550) COLLATE utf8_unicode_ci NOT NULL,
+  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00' ON UPDATE CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Dumping data for table `users`
+--
+
+INSERT INTO `users` (`id`, `sname1`, `sname2`, `fname1`, `fname2`, `email`, `zip_code1`, `zip_code2`, `prefecture`, `municipality`, `password`, `redable_pass`, `address`, `mobile`, `status`, `remember_token`, `created_at`, `updated_at`) VALUES
+(32, 's', 's', 's', 's', 'xsamerseu@gmail.com', 3, 3, '1', '3', '$2y$10$4t4tD9C7pGg0RHMff6TOQ.QobcXodQEMujYnn0hSPo/CVw9cE09zm', '', '3', '3', 'DEACTIVE', 'kOwYcOts06T6s2UfB4VagX8Dmgkx1bavuweMSS76G06DXS1euzJJAoclzCvW', '2017-11-23 08:43:59', '2017-11-27 11:13:36'),
+(34, 's', 's', 'd', 'd', 'ssamerseu@gmail.com', 3, 3, '1', '3', '$2y$10$IQU0G9M0kiGLnCy1x0n72eOglXINAYGwWH7Iro3WKrrW0obEZNcBC', 'test', '3\r\n3', '3', 'ACTIVE', 'o15KjRmSs55fFFbcie5Wu1doMJz2x2duQx8w2wYUTHAs77gCIbpBlYv6dIuz', '2017-11-23 08:41:20', '2017-12-13 21:41:05'),
+(36, '澤口', '大輔', 'さわぐち', 'だいすけ', 'sa_0316@yahoo.co.jp', 156, 55, '13', '世田谷区船橋', '$2y$10$5nHyjKKbhY/fyas.osUduu42nWL0Hj0agMyh6uq6N8FijdW703vQy', 'sawa316', '4-21-21', '09025228500', 'ACTIVE', 'A4AIUwEe16DoPaOmlSJexk9yO19JI8iC99mEMvI2BtUKo1mulQbPbudLHVWs', '2017-11-23 03:47:16', '2017-12-13 21:42:45'),
+(37, 'Kamiyama', 'Taiki', 'カミヤマ', 'タイキ', 'diostaiki@yahoo.co.j', 104, 78, '13', 'Azabu', '$2y$10$vLsOsTRqgO4GGL58bwKFQubqwWdUArIeAyDyVyPeAdWZ6SCSyg1WO', '1234567', '543', '908909887', 'ACTIVE', 'QopddzRznqmTcyqn6zdNqk6QKVkiQkhjOvJv1hBYe4eEoHKalsPFjzAnbj3q', '2017-11-24 10:16:46', '2017-12-13 22:50:30'),
+(48, 'rd hawladar', 'hawladar', 'fname1', 'fname2', 'riad.excel@gmail.com', 123, 1234, '1', 'test', '$2y$10$tXez8VNTrHnM6E5VYWWYyeyXmLcxsS0xIp9iPLvcUz1icZfajrYji', '1', 'rdhawladar address', '0002147483647', 'ACTIVE', 'gmnatfwA196hxN6ZEpLbpqJmkDw7u5FcDjpDek4w8f4T0vHSoBExJUl68Lhw', '2017-11-23 13:01:35', '2017-12-13 21:54:05'),
+(50, 'k', 'k', 'k', 'k', 'samerseu@gmail.com', 2, 2, '2', 'dfa', '$2y$10$Mit7jma.uqk/newYvdSQSuyhpc23GKHOPXFZGTemr93XDC14yn.pa', '123456', 'fadfa', '232', 'ACTIVE', 'RBvUnomNTaUbMuFf9MGez4SRRif9DQOQ2GmWjSsqUHbSO8QSSE1HfjvlRHGu', '2017-11-23 13:31:35', '2017-11-23 18:31:35'),
+(51, 'john', 'Basha', 'ジョン', 'バシャ', 'bashar@excelcobd.com', 12, 7733, '11', 'minami sait', '$2y$10$PE8yr3mgiw0N.J5K5a0wMOfGeW7mfzHknojGh8x/zoZBH4o9Rchi2', '123456', 'kawaguchi 3-3-4', '907736321', 'ACTIVE', 'E0gPe2y9WT6ME07Muc8x61cXlAmdZJuMcfKXdFVvbEtO4ZLiwmiqQijElckv', '2017-11-24 13:49:49', '2017-12-13 21:43:37'),
+(54, 'john', 'test', 'ジョーン', 'テスト', 'john4apps27@gmail.com', 345, 5827, '11', 'kita machi', '$2y$10$VfT0I3XYADXCE9sDUqc0lefszQr9v54Gs1I8BHZvekV02X7Izs4Gy', '567890', 'Sky tree 300', '908766334', 'ACTIVE', 'yQaXJn0DHXaPI4j6jTzH7CTVyzgdEXU1VwE2jFQh2LhtALmiS7MwW3iRSKP1', '2017-11-27 11:04:48', '2017-12-11 18:30:39'),
+(55, 'riad', 'hawladar', '1', '1', 'rdhawladar@gmail.com', 1, 1, '1', '1', '$2y$10$kESOM77gGqgRWphh0gTFX.xePhbjhPXvZqDnvH.7mIpXwxh14G7YO', '1', '1', '1', 'ACTIVE', '', '2017-11-28 16:44:22', '2017-11-28 16:44:22'),
+(57, 'Mainul', 'Hossain', 'マイヌル', 'ホッセイン', 'hell2humpty@gmail.com', 111, 1234, '12', '南埼玉群　宮代町', '$2y$10$T//MafvJpSshid5KqA35XeBRjMQamLqfsgjpRI9MlBDXc0Bfxe4RK', '1234', 'ホンデン２−３−９　吉田荘５０９', '01767613121', 'ACTIVE', '', '2017-12-11 19:17:36', '2017-12-11 19:17:36'),
+(58, '藤井', '正行', 'ふじい', 'まさゆき', 'marufuji1911@yahoo.co.jp', 179, 73, '48', '那覇市', '$2y$10$H5p.SXIV6NHh32bjNDebQ.e.POb45eg0e0PKmRa12L.KUqOigzE5i', 'kanikani', '1-1-1', '0359671911', 'ACTIVE', 'KrlzqLYnVlSmoTkGDi4mswGcRm7wAOlw1YIaMwJJudzWMASWPmFqzCxpxadD', '2017-12-12 19:47:52', '2017-12-12 20:06:31');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `users_old`
+--
+
+CREATE TABLE `users_old` (
+  `id` int(11) NOT NULL,
+  `first_name` varchar(500) COLLATE utf8_unicode_ci NOT NULL,
+  `last_name` varchar(500) COLLATE utf8_unicode_ci NOT NULL,
+  `email` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `readable_password` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `password` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `premium_password` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `premium_amount` float(10,2) NOT NULL,
+  `country` varchar(450) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `present_address` varchar(500) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `parmanent_address` varchar(500) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `phone` varchar(400) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `skype` varchar(400) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `facebook` varchar(400) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `hobby` varchar(450) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `profession` varchar(450) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `about_yourself` varchar(550) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `profile_picture` varchar(550) COLLATE utf8_unicode_ci DEFAULT 'user4-128x128.jpg',
+  `remember_token` varchar(100) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `status` varchar(400) COLLATE utf8_unicode_ci NOT NULL DEFAULT 'DEACTIVE',
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Dumping data for table `users_old`
+--
+
+INSERT INTO `users_old` (`id`, `first_name`, `last_name`, `email`, `readable_password`, `password`, `premium_password`, `premium_amount`, `country`, `present_address`, `parmanent_address`, `phone`, `skype`, `facebook`, `hobby`, `profession`, `about_yourself`, `profile_picture`, `remember_token`, `status`, `created_at`, `updated_at`) VALUES
+(1, 'ed', 'sys', 'edsys@gmail.com', 'khokon2015', '$2y$10$k38G/Kto95Nqh1Eci.fjdui3ltNRNyOYKEze2nSm.HPrMvZD9onUS', '12345', 200.00, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'user4-128x128.jpg', 'edpXi3vkd5KxC2AUWrGac9paEsWa5LIQV0cAJsSUOQfeKpJWmVFfIUzd77e0', 'ACTIVE', '2017-06-12 20:23:53', '2017-07-24 07:13:51'),
+(2, 'samer', 'sarker', 'samerseu@gmail.com', 'khokon2015', '$2y$10$8cfkPH9xPubnyLMXieS01Ouz55j.lHKItuCXbocJcETlHdQ66G3A6', '12345', 3000.00, 'Bangladesh', 'Basundhara R/A,Dhaka', 'Rangpur,Bangladesh', '+880+8801719347580', 'khokon_samer_sarker', 'Samer Khokon Sarker', 'Watching Movie,Listening Music', 'Software Development', '', '20170712105555_avatar2.png', 'MrwvtfyiSwyIOLqDpSufmMWsa4BZHf8Luf5Op01M2X6CQeSXZKsYK7Hfu8dE', 'ACTIVE', '2017-06-20 13:17:34', '2017-08-10 01:52:18'),
+(5, 'Abul', 'Maal', 'abul_maal@gmail.com', 'abul2017', '$2y$10$U7PRQhCkPspXxIFJwDDLbuatpgoqFJpfJbrgXUj2740z5F9Z45Hx.', '12345', 100.00, 'Bangladesh', 'Dhaka', 'Dhaka', '+880+880+61+61', '', '', NULL, NULL, NULL, '20170712065559_avatar04.png', 'D1hxu2diIgg9Tss6F88yTvdWmZNWNccN08clFfYQcbyfsjVy0wxACnKWcavO', 'ACTIVE', '2017-07-12 08:51:17', '2017-08-04 08:56:02'),
+(6, 'basic', 'ali', 'basic_ali@gmail.com', 'basic@2017', '$2y$10$3iq7vayIP3HKIEET.knxge4wY6df3Q6dnHsBeJqBtzIMLA.K9FjI6', '12345', 300.00, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'user4-128x128.jpg', 'FJcjKnJK2qnMm6jGaCovYu1aeKrvEr2sbr8GJ8oCCfBZSNmWeHCh0snYoHvv', 'ACTIVE', '2017-07-17 06:01:44', '2017-08-09 09:34:06'),
+(7, 'Sbk', 'Mart', 'sbkmart17@gmail.com', '567890', '$2y$10$n8diypCC8QJ8vU8GYIZSEeebXw6rSmEquAib/T7ZA1Xl88p5Jv5ZG', '12345', 100.00, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'user4-128x128.jpg', 'qrubQ1bBlgOEWuvaJ9gPZjgt8CGSk3Ar0eqKQIDedqjWIlrALlvXITX104WZ', 'ACTIVE', '2017-07-21 12:57:21', '2017-07-27 08:52:52'),
+(8, 'shiblu', 'bhai', 'shiblu@gmail.com', '1234', '$2y$10$1QpBEhjpJyKDkHzoS6l7eOfat/6P213Q5YUQHWGq8dW9bgWYItYqO', '12345', 1000.00, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'user4-128x128.jpg', 'VHfzi6EC2zisAt9cDfQXnZ6Vw52QvowRJtSuoHFAszCK9vc0Hn9luSfgeltM', 'ACTIVE', '2017-07-24 14:22:51', '2017-08-01 05:26:22'),
+(9, 'faruk', 'bhai', 'faruk@gmail.com', '1234', '$2y$10$FrJNsi8mve.QiciLTTGfmuzJugt0CIpIfOUw.bHq4urW9sRuMRTQ.', '12345', 500.00, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '20170810035131_logoh.png', 'iDe5fsxavgxGSJmeNqlsPX7bfqVim7o6XEscbp8eVPJX7P7RNvi6pkixydJr', 'ACTIVE', '2017-07-24 14:23:31', '2017-08-10 02:17:47'),
+(10, 'rakib', 'mia', 'rakib@gmail.com', '1234', '$2y$10$BDOJkriQo8dItp6ZiO5G/.wv.x9QDZafCvsaZUu5DCAulbH/VM/9G', '12345', 300.00, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'user4-128x128.jpg', 'XYDXC1Q19PHbUc3NBH2e6qf8tgb7D1T4my0pM8LOWFfB1V1AZMUJG1FuwTZR', 'ACTIVE', '2017-07-24 14:23:57', '2017-08-04 08:46:22'),
+(11, 'mokha', 'alamgir', 'mokha@gmail.com', 'mokha@2017', '$2y$10$mvEycc00vItuzJjcXtMc5eYpxtBaJxm/Lfg4lGMMv/s3ewExFROAy', '12345', 1000.00, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'user4-128x128.jpg', 'h7RbYWoouPCN0XRnRyUEUTVwRnuc0EEETyhAM3XvnxJg7RxGlHsW5GFljP5o', 'ACTIVE', '2017-07-27 12:35:30', '2017-08-03 04:39:45'),
+(12, 'sasaki', '1', 'bitcoinab-1@yahoo.co.jp', '1234', '$2y$10$KvibwSmIaSnkaCsATRLqzesr.UQNPxfqQ.W295gkTKXjje2KRhLGG', '', 0.00, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '20170808074718_akira_jiko.jpg', NULL, 'ACTIVE', '2017-08-07 06:33:46', '2017-08-08 05:47:18'),
+(13, 'sasaki', '2', 'bitcoinab-2@yahoo.co.jp', '1234', '$2y$10$gbB5VUxyn7K/rLpQo5IOeuVMwfbz9jQ/BquvIVYpY8FZb8odjLcQC', '', 0.00, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'user4-128x128.jpg', NULL, 'ACTIVE', '2017-08-07 06:34:13', '2017-08-07 06:34:13'),
+(14, 'sasaki', '3', 'bitcoinab-3@yahoo.co.jp', '1234', '$2y$10$hKy9jm8MYPqdetBhg2GVq.ZJ6L0MJaht7RnsvbOuaUFMfApjX1ewa', '', 0.00, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'user4-128x128.jpg', NULL, 'ACTIVE', '2017-08-07 06:35:09', '2017-08-07 06:35:09'),
+(15, 'sasaki', '4', 'bitcoinab-4@yahoo.co.jp', '1234', '$2y$10$mft7TYD8fal7jF52f5Wld.jB7JddeksOjzzU4oFsQBaL1lPRIuQnK', '', 0.00, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'user4-128x128.jpg', NULL, 'ACTIVE', '2017-08-07 06:35:26', '2017-08-07 06:35:26'),
+(16, 'sasaki', '5', 'bitcoinab-5@yahoo.co.jp', '1234', '$2y$10$vPGifGSdhljSDFPCVc52nODBpImW.fEOciF0IzUo5tUR6erJlj3Mu', '', 0.00, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'user4-128x128.jpg', NULL, 'ACTIVE', '2017-08-07 06:35:46', '2017-08-07 06:35:46'),
+(17, 'sasaki', '6', 'bitcoinab-6@yahoo.co.jp', '1234', '$2y$10$XBkVrEmzWAUazTgUBrX3f.hVBiMPnMzI5KMx63VmHvHlm/8M8RaUy', '', 0.00, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'user4-128x128.jpg', '2PwaZm64pMjMdxXtOitnZziZt3C4l1CL79KxYYZEIK4oGmwi4NukUvoFa0l6', 'ACTIVE', '2017-08-07 06:36:05', '2017-08-08 03:27:18'),
+(18, 'sasaki', '7', 'bitcoinab-7@yahoo.co.jp', '1234', '$2y$10$XDhhd1lzSeEkm3HTSMysZeW5Dgbsyd/pENbfGVT61vwAvheI9xkdy', '', 0.00, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'user4-128x128.jpg', NULL, 'ACTIVE', '2017-08-07 06:36:25', '2017-08-07 06:36:25'),
+(19, 'sasaki', '8', 'bitcoinab-8@yahoo.co.jp', '1234', '$2y$10$5a27PqDEEgjB6qrJofedBe3EwETK.tVqpS6QjhdeuSSzH36OzQz.C', '', 0.00, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '20170807091031_オダナンバ160800.png', NULL, 'ACTIVE', '2017-08-07 06:36:42', '2017-08-07 07:10:34'),
+(20, 'sasaki', '9', 'bitcoinab-9@yahoo.co.jp', '1234', '$2y$10$Zh8j52eqQJ6q4vJNdBVi7ebFVHX8d1HJ/EjRoAJGz/HpJMzXL5IsK', '', 0.00, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'user4-128x128.jpg', NULL, 'ACTIVE', '2017-08-07 06:37:12', '2017-08-07 06:37:12'),
+(21, 'sasaki', '10', 'bitcoinab-10@yahoo.co.jp', '1234', '$2y$10$U1VqFK/BvIh9dHOQZB/oeeTCGrpT6/85lRsX6IRGe7PrHVUe22yq6', '', 0.00, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'user4-128x128.jpg', 'g5D5PJJPFPv5y3iHxrKvhhdBqiWMXB0698LjcSbwTNKmy3ky2KKrXCaqs7l7', 'ACTIVE', '2017-08-07 06:37:30', '2017-08-07 07:28:02'),
+(22, 'habijabi', 'hasan', 'habijabi@gmail.com', 'habijabi@2015', '$2y$10$EBLkECS5zPadLp.FFaPM5O5b.c2Re7dgUQNulr5Fgx9DeCJSJQKCC', '', 0.00, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'user4-128x128.jpg', 'bRxGxPbb6sLoD4HcDrzZ4tRmB2o36W4Cz4Ay6ykJBSSieEfh5aNMuLzvbMDd', 'ACTIVE', '2017-08-07 06:53:34', '2017-08-07 06:55:33');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `user_point_distribution`
+--
+
+CREATE TABLE `user_point_distribution` (
+  `id` int(11) NOT NULL,
+  `content_page` varchar(550) COLLATE utf8_unicode_ci NOT NULL,
+  `gpoint` float(10,2) NOT NULL,
+  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `updated_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Dumping data for table `user_point_distribution`
+--
+
+INSERT INTO `user_point_distribution` (`id`, `content_page`, `gpoint`, `created_at`, `updated_at`) VALUES
+(1, 'news_events', 2.00, '2017-08-04 04:27:45', '2017-08-04 04:27:45');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `videos_info`
+--
+
+CREATE TABLE `videos_info` (
+  `id` int(11) NOT NULL,
+  `content_page` varchar(550) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `reference` int(11) DEFAULT NULL,
+  `owner` int(11) DEFAULT NULL,
+  `title` varchar(550) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `vdo_id` varchar(450) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `updated_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Dumping data for table `videos_info`
+--
+
+INSERT INTO `videos_info` (`id`, `content_page`, `reference`, `owner`, `title`, `vdo_id`, `created_at`, `updated_at`) VALUES
+(5, 'bitcoin_related_lecture', 7, 5, 'ビットコインせどり(アービトラージ)全体像', '229945594', '2017-08-17 02:06:45', '2017-08-17 06:06:45'),
+(6, 'bitcoin_related_lecture', 6, 7, '1-1.bitflyerアカウント開設方法(本人確認)', '229945698', '2017-08-17 02:07:24', '2017-08-17 06:07:24'),
+(17, 'bitcoin_related_lecture', 12, 1, '1-2.coincheckアカウント開設方法(本人確認)', '229945979', '2017-08-17 02:07:55', '2017-08-17 06:07:55'),
+(44, 'bitcoin_related_lecture', 0, 0, '1-3.quoinexアカウント開設方法(本人確認)', '229963026', '2017-08-17 06:08:25', '2017-08-17 06:08:25'),
+(45, 'bitcoin_related_lecture', 0, 0, '1-4.zaifアカウント開設方法(本人確認)', '229963126', '2017-08-17 06:09:05', '2017-08-17 06:09:05'),
+(68, 'bitcoin_related_lecture', 0, 0, '1-5 btcboxアカウント開設方法本人確認', '233594398', '2017-09-14 17:32:42', '2017-09-14 17:32:42'),
+(69, 'bitcoin_related_lecture', 0, 0, '2-1.bitflyer操作方法(入出金など)', '229963349', '2017-09-14 17:33:16', '2017-09-14 17:33:16'),
+(70, 'bitcoin_related_lecture', 0, 0, '2-2.coincheck操作方法(入出金など)', '229963617', '2017-09-14 17:33:46', '2017-09-14 17:33:46'),
+(71, 'bitcoin_related_lecture', 0, 0, '2-3.quoinex操作方法(入出金など)', '229963756', '2017-09-14 17:34:13', '2017-09-14 17:34:13'),
+(72, 'bitcoin_related_lecture', 0, 0, '2-4.zaif操作方法(入出金など)', '229964820', '2017-09-14 17:34:40', '2017-09-14 17:34:40'),
+(73, 'bitcoin_related_lecture', 0, 0, '2-5 btcbox操作方法入出金など', '233594459', '2017-09-14 17:35:13', '2017-09-14 17:35:13'),
+(74, 'bitcoin_related_lecture', 0, 0, '3-1.ビットコインの送受信方法', '229965104', '2017-09-14 17:35:41', '2017-09-14 17:35:41'),
+(75, 'bitcoin_related_lecture', 0, 0, '3-2.ビットコインの売り板と買い板の確認方法', '229965165', '2017-09-14 17:36:05', '2017-09-14 17:36:05'),
+(76, 'bitcoin_related_lecture', 0, 0, '4-1.アービトラージの初め方', '229965351', '2017-09-14 17:36:33', '2017-09-14 17:36:33'),
+(77, 'bitcoin_related_lecture', 0, 0, '4-2.アービトラージの取引方法', '229965473', '2017-09-14 17:36:58', '2017-09-14 17:36:58'),
+(78, 'bitcoin_related_lecture', 0, 0, '4-3.アービトラージの最終確認', '229965612', '2017-09-14 17:37:22', '2017-09-14 17:37:22'),
+(79, 'bitcoin_related_lecture', 0, 0, '4-4 アービトラージ高額取り引き方法', '229965685', '2017-09-14 17:37:43', '2017-09-14 17:37:43'),
+(80, 'bitcoin_related_lecture', 0, 0, '4-5 複利運用とボーナス取引', '229965931', '2017-09-14 17:38:06', '2017-09-14 17:38:06'),
+(81, 'bitcoin_related_lecture', 0, 0, '5-0 アルトコインせどり進み方', '229966148', '2017-09-14 17:38:32', '2017-09-14 17:38:32'),
+(82, 'bitcoin_related_lecture', 0, 0, '5-1 Bittrexアカウント登録方法', '229966225', '2017-09-14 17:38:56', '2017-09-14 17:38:56'),
+(83, 'bitcoin_related_lecture', 0, 0, '5-2 Bittrex操作方法', '229966301', '2017-09-14 17:39:18', '2017-09-14 17:39:18'),
+(84, 'bitcoin_related_lecture', 0, 0, '5-3 アルトコインせどり準備編', '229966418', '2017-09-14 17:39:40', '2017-09-14 17:39:40'),
+(85, 'bitcoin_related_lecture', 0, 0, '5-4 アルトコインせどり実践編', '229966551', '2017-09-14 17:40:03', '2017-09-14 17:40:03'),
+(86, 'mobile_application', 0, 0, 'そこそこの達人１', '229966745', '2017-09-14 17:40:26', '2017-09-14 17:40:26'),
+(87, 'bitcoin_related_lecture', 0, 0, 'ブロックチェーン講義１asdfggh', '232270770', '2017-10-04 06:28:37', '2017-10-04 00:28:37'),
+(88, 'membership_power', 1, 1, 'tets', '364682', '2017-09-15 04:01:59', '0000-00-00 00:00:00'),
+(89, 'majime_terrorist', 1, 1, 'teste', '32434', '2017-09-15 04:06:24', '0000-00-00 00:00:00'),
+(90, 'bitcoin_related_lecture', 0, 0, 'aaaaaaa', '11112222', '2017-10-04 00:37:32', '2017-10-04 00:37:32');
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `admin_users`
+--
+ALTER TABLE `admin_users`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `audios_info`
+--
+ALTER TABLE `audios_info`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `catagory`
+--
+ALTER TABLE `catagory`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `content_detail`
+--
+ALTER TABLE `content_detail`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `control`
+--
+ALTER TABLE `control`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `country`
+--
+ALTER TABLE `country`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `event_table`
+--
+ALTER TABLE `event_table`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `footer`
+--
+ALTER TABLE `footer`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `for_month`
+--
+ALTER TABLE `for_month`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `logo`
+--
+ALTER TABLE `logo`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `menu_item`
+--
+ALTER TABLE `menu_item`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `message`
+--
+ALTER TABLE `message`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `newsfeed`
+--
+ALTER TABLE `newsfeed`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `news_feed`
+--
+ALTER TABLE `news_feed`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `news_poll`
+--
+ALTER TABLE `news_poll`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `order_date_range`
+--
+ALTER TABLE `order_date_range`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `order_list`
+--
+ALTER TABLE `order_list`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `other_page`
+--
+ALTER TABLE `other_page`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `prefectures`
+--
+ALTER TABLE `prefectures`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `product`
+--
+ALTER TABLE `product`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `pro_order`
+--
+ALTER TABLE `pro_order`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `qualification`
+--
+ALTER TABLE `qualification`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `question_answer_requests`
+--
+ALTER TABLE `question_answer_requests`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `sessions`
+--
+ALTER TABLE `sessions`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `slider_image`
+--
+ALTER TABLE `slider_image`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `sub_catagory`
+--
+ALTER TABLE `sub_catagory`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `test_cron`
+--
+ALTER TABLE `test_cron`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `test_upload`
+--
+ALTER TABLE `test_upload`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `user`
+--
+ALTER TABLE `user`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `users`
+--
+ALTER TABLE `users`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `users_old`
+--
+ALTER TABLE `users_old`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `user_point_distribution`
+--
+ALTER TABLE `user_point_distribution`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `videos_info`
+--
+ALTER TABLE `videos_info`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `audios_info`
+--
+ALTER TABLE `audios_info`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+--
+-- AUTO_INCREMENT for table `catagory`
+--
+ALTER TABLE `catagory`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+--
+-- AUTO_INCREMENT for table `content_detail`
+--
+ALTER TABLE `content_detail`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
+--
+-- AUTO_INCREMENT for table `control`
+--
+ALTER TABLE `control`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+--
+-- AUTO_INCREMENT for table `country`
+--
+ALTER TABLE `country`
+  MODIFY `id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=239;
+--
+-- AUTO_INCREMENT for table `event_table`
+--
+ALTER TABLE `event_table`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+--
+-- AUTO_INCREMENT for table `footer`
+--
+ALTER TABLE `footer`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+--
+-- AUTO_INCREMENT for table `for_month`
+--
+ALTER TABLE `for_month`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
+--
+-- AUTO_INCREMENT for table `logo`
+--
+ALTER TABLE `logo`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+--
+-- AUTO_INCREMENT for table `menu_item`
+--
+ALTER TABLE `menu_item`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+--
+-- AUTO_INCREMENT for table `message`
+--
+ALTER TABLE `message`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
+--
+-- AUTO_INCREMENT for table `newsfeed`
+--
+ALTER TABLE `newsfeed`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+--
+-- AUTO_INCREMENT for table `news_feed`
+--
+ALTER TABLE `news_feed`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+--
+-- AUTO_INCREMENT for table `news_poll`
+--
+ALTER TABLE `news_poll`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+--
+-- AUTO_INCREMENT for table `order_date_range`
+--
+ALTER TABLE `order_date_range`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+--
+-- AUTO_INCREMENT for table `order_list`
+--
+ALTER TABLE `order_list`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=123;
+--
+-- AUTO_INCREMENT for table `other_page`
+--
+ALTER TABLE `other_page`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+--
+-- AUTO_INCREMENT for table `prefectures`
+--
+ALTER TABLE `prefectures`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=50;
+--
+-- AUTO_INCREMENT for table `product`
+--
+ALTER TABLE `product`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
+--
+-- AUTO_INCREMENT for table `pro_order`
+--
+ALTER TABLE `pro_order`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=223;
+--
+-- AUTO_INCREMENT for table `qualification`
+--
+ALTER TABLE `qualification`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+--
+-- AUTO_INCREMENT for table `question_answer_requests`
+--
+ALTER TABLE `question_answer_requests`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+--
+-- AUTO_INCREMENT for table `slider_image`
+--
+ALTER TABLE `slider_image`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+--
+-- AUTO_INCREMENT for table `sub_catagory`
+--
+ALTER TABLE `sub_catagory`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=32;
+--
+-- AUTO_INCREMENT for table `test_cron`
+--
+ALTER TABLE `test_cron`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2472;
+--
+-- AUTO_INCREMENT for table `test_upload`
+--
+ALTER TABLE `test_upload`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+--
+-- AUTO_INCREMENT for table `user`
+--
+ALTER TABLE `user`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
+--
+-- AUTO_INCREMENT for table `users`
+--
+ALTER TABLE `users`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=59;
+--
+-- AUTO_INCREMENT for table `users_old`
+--
+ALTER TABLE `users_old`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
+--
+-- AUTO_INCREMENT for table `user_point_distribution`
+--
+ALTER TABLE `user_point_distribution`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+--
+-- AUTO_INCREMENT for table `videos_info`
+--
+ALTER TABLE `videos_info`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=91;COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
